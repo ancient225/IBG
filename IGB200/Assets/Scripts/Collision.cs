@@ -5,6 +5,7 @@ using UnityEngine;
 public class Collision : MonoBehaviour
 {
     [SerializeField] private GameObject miniGame;
+    [SerializeField] private GameObject Control;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -16,6 +17,12 @@ public class Collision : MonoBehaviour
         {
             Time.timeScale = 0.0f;
             Cursor.lockState = CursorLockMode.None;
+
+            Control.GetComponent<control>().UI = 1;
+
+            gameObject.transform.position = new Vector3 (0, 10, 0);
+            gameObject.transform.rotation = new Quaternion (0, 0, 0, 0);
+            
             miniGame.SetActive(true);
         }
     }
