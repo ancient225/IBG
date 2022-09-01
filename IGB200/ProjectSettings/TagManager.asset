@@ -6,6 +6,7 @@ TagManager:
   tags:
   - wall
   - bat
+  - EnemeyGoal
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - NPC1
-  - 
+  - Bob
+  - Jenny
   - 
   - 
   - 

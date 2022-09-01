@@ -5,6 +5,9 @@ using UnityEngine;
 public class BallStart : MonoBehaviour
 {
     [HideInInspector] public Vector3 Move;
+    [SerializeField] private float speed;
+    [SerializeField] private GameObject Score;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,26 +16,38 @@ public class BallStart : MonoBehaviour
 
     void Moving()
     {
-        Move = new Vector3(Mathf.RoundToInt(Random.Range(-5, 5)), Mathf.RoundToInt(Random.Range(-5, 5)), 0);
-        if (Mathf.Abs(Move.x) < 3)
+        if(Random.value > 0.5)
         {
-            Move.x *= 3;
+            Move.x = speed + (Random.value - 0.5f) * 2;
         }
-        if (Mathf.Abs(Move.y) < 3)
+        else
         {
-            Move.y *= 3;
+            Move.x = -speed + (Random.value - 0.5f) * 2;
+        }
+        
+        if(Random.value > 0.5)
+        {
+            Move.y = speed + (Random.value - 0.5f) * 2;
+        }
+        else
+        {
+            Move.y = -speed + (Random.value - 0.5f) * 2;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+        Move.x += Move.x / 10 * Time.deltaTime;
+
         Vector3 pos = gameObject.transform.position;
 
         pos += Move * Time.deltaTime;
         pos.z = 0;
 
         gameObject.transform.position = pos;
+
+        Debug.Log(Move);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -45,9 +60,16 @@ public class BallStart : MonoBehaviour
         {
             Move.x *= -1;
         }
+        else if (other.tag == "EnemeyGoal")
+        {
+            gameObject.transform.position = new Vector3(0, 0, 0);
+            Score.GetComponent<ScorePong>().score -= 1;
+            Moving();
+        }
         else
         {
             gameObject.transform.position = new Vector3(0, 0, 0);
+            Score.GetComponent<ScorePong>().score += 1;
             Moving();
         }
     }
