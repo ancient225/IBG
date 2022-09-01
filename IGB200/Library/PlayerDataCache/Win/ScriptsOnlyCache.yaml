@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AIpong
     - BallStart
     - Collision
+    - Control
     - LookAtPlayer
     - Movement_script
     - PlayerView
@@ -68,9 +69,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1512}
     - Class: 114
-      Script: {instanceID: 1842}
+      Script: {instanceID: 1840}
     - Class: 114
-      Script: {instanceID: 1860}
+      Script: {instanceID: 1858}
     - Class: 114
       Script: {instanceID: 2162}
     - Class: 114
@@ -82,15 +83,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2458}
     - Class: 114
-      Script: {instanceID: 2670}
+      Script: {instanceID: 2672}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2852}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 3074}
+      Script: {instanceID: 3076}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 3398}
+    - Class: 114
+      Script: {instanceID: 15378}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -133,15 +136,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1842}
+      Script: {instanceID: 1840}
+    - Class: 114
+      Script: {instanceID: 1988}
     - Class: 114
       Script: {instanceID: 2224}
     - Class: 114
-      Script: {instanceID: 2714}
+      Script: {instanceID: 2716}
     - Class: 114
-      Script: {instanceID: 3054}
-    - Class: 114
-      Script: {instanceID: 22382}
+      Script: {instanceID: 3056}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -182,27 +185,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1842}
+      Script: {instanceID: 1840}
     - Class: 114
       Script: {instanceID: 2384}
     - Class: 114
-      Script: {instanceID: 2670}
+      Script: {instanceID: 2550}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2672}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 2852}
     - Class: 114
-      Script: {instanceID: 3074}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 3326}
+      Script: {instanceID: 3076}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 3124}
     - Class: 114
-      Script: {instanceID: 3508}
+      Script: {instanceID: 3330}
     - Class: 114
-      Script: {instanceID: 17722}
+      Script: {instanceID: 3398}
     - Class: 114
-      Script: {instanceID: 34086}
+      Script: {instanceID: 3512}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -360,6 +363,12 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: controlMainMenu
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -466,6 +475,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 906e2cc64e1abf40f21488564aed6b57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimerPong
   - hash:
       serializedVersion: 2
       Hash: 5f170942ee57c7a568f5bcfc7521adea
@@ -588,6 +603,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: bfdf060b2603148594c3c06838d1c1db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScorePong
+  - hash:
+      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -616,12 +637,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AIpong
-  - hash:
-      serializedVersion: 2
-      Hash: da857529520270eabfc32a2299a365de
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: control
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -702,25 +717,13 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: bfdf060b2603148594c3c06838d1c1db
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScorePong
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: controlMainMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 906e2cc64e1abf40f21488564aed6b57
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TimerPong
+    className: Control
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/IGB200.unity
   - Assets/Scenes/Pong.unity
-  playerPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Builds/v01_t02/IGB200.exe
+  playerPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Builds/v01_t03/IGB200.exe
