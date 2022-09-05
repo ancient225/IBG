@@ -7,6 +7,9 @@ TagManager:
   - wall
   - bat
   - EnemeyGoal
+  - Spike
+  - Coin
+  - Bounce
   layers:
   - Default
   - TransparentFX
@@ -17,7 +20,7 @@ TagManager:
   - Ground
   - Bob
   - Jenny
-  - 
+  - Pete
   - 
   - 
   - 
