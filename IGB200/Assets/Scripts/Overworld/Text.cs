@@ -51,7 +51,96 @@ public class Text : MonoBehaviour
 
         if (UI == 99)
         {
-            info.text = "Did you know 'interesting facts about certain field' how fasinating. Points: " + Points;
+            info.text = "Did you know 'interesting facts about certain field One Part one' how fasinating.";
+
+            if (allow)
+            {
+                t = 0;
+                allow = false;
+            }
+        }
+        else if (UI == 98)
+        {
+            info.text = "Did you know 'interesting facts about certain field One part two' how fasinating.";
+
+            if (allow)
+            {
+                t = 0;
+                allow = false;
+            }
+        }
+        else if (UI == 97)
+        {
+            info.text = "Did you know 'interesting facts about certain field Two Part one' how fasinating.";
+
+            if (allow)
+            {
+                t = 0;
+                allow = false;
+            }
+        }
+        else if (UI == 96)
+        {
+            info.text = "Did you know 'interesting facts about certain field Two part two' how fasinating.";
+
+            if (allow)
+            {
+                t = 0;
+                allow = false;
+            }
+        }
+        else if (UI == 95)
+        {
+            info.text = "Did you know 'interesting facts about certain field Three Part one' how fasinating.";
+
+            if (allow)
+            {
+                t = 0;
+                allow = false;
+            }
+        }
+        else if (UI == 94)
+        {
+            info.text = "Did you know 'interesting facts about certain field Three part two' how fasinating.";
+            if (allow)
+            {
+                t = 0;
+                allow = false;
+            }
+        }
+        else if (UI == 93)
+        {
+            info.text = "Did you know 'interesting facts about certain field Four' how fasinating.";
+
+            if (allow)
+            {
+                t = 0;
+                allow = false;
+            }
+        }
+        else if (UI == 92)
+        {
+            info.text = "Mini Game three Coming soon!!!";
+
+            if (allow)
+            {
+                t = 0;
+                allow = false;
+            }
+        }
+        else if (UI == 91)
+        {
+            info.text = "Mini Game four Coming soon!!!";
+
+            if (allow)
+            {
+                t = 0;
+                allow = false;
+            }
+        }
+        else if (UI == 90)
+        {
+            info.text = "Shop coming soon!!!";
 
             if (allow)
             {
