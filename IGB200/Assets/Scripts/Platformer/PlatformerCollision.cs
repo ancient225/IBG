@@ -7,6 +7,7 @@ public class PlatformerCollision : MonoBehaviour
 {
 
     [SerializeField] private GameObject Score;
+    [SerializeField] private int bounce;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +34,8 @@ public class PlatformerCollision : MonoBehaviour
         }
         else if(other.tag == "Bounce")
         {
-            gameObject.GetComponent<PlatformerMove2D>().Bounce = true;
+            gameObject.GetComponent<Rigidbody>().velocity = new Vector3 (0, 0, 0);
+            gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0, bounce, 0), ForceMode.Impulse);
         }
     }
 }

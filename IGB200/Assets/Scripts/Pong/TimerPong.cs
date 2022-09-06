@@ -25,10 +25,6 @@ public class TimerPong : MonoBehaviour
 
         if (Timer <= 0)
         {
-            if (UniversalText.story == 0)
-            {
-                UniversalText.story = 1;
-            }
             UniversalText.Points += Score.GetComponent<ScorePong>().score;
             SceneManager.LoadScene("IGB200");
         }

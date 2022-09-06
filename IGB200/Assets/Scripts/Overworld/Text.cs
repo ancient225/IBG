@@ -42,11 +42,23 @@ public class Text : MonoBehaviour
 
         if (UI == 0)
         {
-            info.text = "Go talk to Bob. Points: " + Points;
+            info.text = "Story - Go talk to Bob. Points: " + Points;
         }
         else if (UI == 1)
         {
-            info.text = "Congrats. Points: " + Points;
+            info.text = "More story - Go talk to Pete. Points: " + Points;
+        }
+        else if (UI == 2)
+        {
+            info.text = "even more story - Go talk to Fred. Points: " + Points;
+        }
+        else if (UI == 3)
+        {
+            info.text = "and some more story - Go talk to Rebecca. Points: " + Points;
+        }
+        else if (UI == 4)
+        {
+            info.text = "story - Congrates go check out the shop. Points: " + Points + "  Thanks for playing the demo later we are planning for better level design more mini games and models";
         }
 
         if (UI == 99)

@@ -45,13 +45,7 @@ public class PlatformerMove2D : MonoBehaviour
     {
         t += Time.deltaTime;
         //jump
-        if (Bounce)
-        {
-            t = 0;
-            Bounce = false;
-            return new Vector3(0, jumpHeight*2, 0);
-        }
-        else if (Input.GetButtonDown("Jump") && Physics.CheckSphere(groundCheck.position, 1, groundLayer) || Input.GetKeyDown("w") && Physics.CheckSphere(groundCheck.position, 1, groundLayer))
+        if (Input.GetButtonDown("Jump") && Physics.CheckSphere(groundCheck.position, 1, groundLayer) || Input.GetKeyDown("w") && Physics.CheckSphere(groundCheck.position, 1, groundLayer))
         {
             t = 0;
             return new Vector3(0, jumpHeight, 0);

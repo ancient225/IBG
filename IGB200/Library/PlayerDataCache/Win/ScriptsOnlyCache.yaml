@@ -7,9 +7,12 @@ ScriptsOnlyBuild:
     - Control
     - LookAtPlayer
     - Movement_script
+    - PlatformerCollision
+    - PlatformerMove2D
     - PlayerView
     - PongControls
     - ScorePong
+    - Spin
     - Text
     - TimerPong
     - controlMainMenu
@@ -69,31 +72,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1512}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 1858}
+      Script: {instanceID: 1860}
     - Class: 114
-      Script: {instanceID: 2162}
+      Script: {instanceID: 2054}
     - Class: 114
-      Script: {instanceID: 2234}
+      Script: {instanceID: 2168}
     - Class: 114
-      Script: {instanceID: 2242}
+      Script: {instanceID: 2240}
     - Class: 114
-      Script: {instanceID: 2444}
+      Script: {instanceID: 2248}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 2672}
+      Script: {instanceID: 2464}
     - Class: 114
-      Script: {instanceID: 2852}
+      Script: {instanceID: 2678}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3076}
+      Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 3398}
+      Script: {instanceID: 3084}
     - Class: 114
-      Script: {instanceID: 15378}
+      Script: {instanceID: 3404}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -136,15 +139,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 1988}
+      Script: {instanceID: 1990}
     - Class: 114
-      Script: {instanceID: 2224}
+      Script: {instanceID: 2230}
     - Class: 114
-      Script: {instanceID: 2716}
+      Script: {instanceID: 2722}
     - Class: 114
-      Script: {instanceID: 3056}
+      Script: {instanceID: 3064}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -152,6 +155,75 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/Platformer.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1772}
+    - Class: 114
+      Script: {instanceID: 1842}
+    - Class: 114
+      Script: {instanceID: 2150}
+    - Class: 114
+      Script: {instanceID: 2556}
+    - Class: 114
+      Script: {instanceID: 2678}
+    - Class: 114
+      Script: {instanceID: 2858}
+    - Class: 114
+      Script: {instanceID: 2912}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 3084}
+    - Class: 114
+      Script: {instanceID: 3132}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Pong.unity:
     - Class: 1
@@ -185,27 +257,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 2390}
     - Class: 114
-      Script: {instanceID: 2550}
+      Script: {instanceID: 2556}
     - Class: 114
-      Script: {instanceID: 2672}
+      Script: {instanceID: 2678}
     - Class: 114
-      Script: {instanceID: 2852}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 3076}
+      Script: {instanceID: 3084}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 3132}
     - Class: 114
-      Script: {instanceID: 3330}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 3398}
+      Script: {instanceID: 3404}
     - Class: 114
-      Script: {instanceID: 3512}
+      Script: {instanceID: 3518}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -321,6 +393,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 3119f52fa4d4df79595510b7b87f00e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlatformerCollision
+  - hash:
+      serializedVersion: 2
       Hash: 300fd99066f8c288e85f5e81ce65fe34
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -376,6 +454,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Control
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
@@ -385,6 +469,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ef8153cdf8a978941d0b35437e2f60c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlatformerMove2D
   - hash:
       serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
@@ -579,6 +669,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spin
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -715,15 +811,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Control
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/IGB200.unity
   - Assets/Scenes/Pong.unity
-  playerPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Builds/v01_t03/IGB200.exe
+  - Assets/Scenes/Platformer.unity
+  playerPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Builds/v02_t02/IGB200.exe

@@ -26,18 +26,34 @@ public class Collision : MonoBehaviour
         int Shop = 1 << 18;
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Bob) && Input.GetButton("Fire1"))
         {
+            if (UniversalText.story == 0)
+            {
+                UniversalText.story = 1;
+            }
             SceneManager.LoadScene("Pong");
         }
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Pete) && Input.GetButton("Fire1"))
         {
+            if (UniversalText.story == 1)
+            {
+                UniversalText.story = 2;
+            }
             SceneManager.LoadScene("Platformer");
         }
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Fred) && Input.GetButton("Fire1"))
         {
+            if (UniversalText.story == 2)
+            {
+                UniversalText.story = 3;
+            }
             Text.GetComponent<Text>().UI = 92;
         }
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Rebecca) && Input.GetButton("Fire1"))
         {
+            if (UniversalText.story == 3)
+            {
+                UniversalText.story = 4;
+            }
             Text.GetComponent<Text>().UI = 91;
         }
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Shop) && Input.GetButton("Fire1"))
