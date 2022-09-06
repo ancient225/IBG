@@ -33,7 +33,6 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/IGB200.unity:
@@ -70,8 +69,6 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1512}
-    - Class: 114
       Script: {instanceID: 1842}
     - Class: 114
       Script: {instanceID: 1860}
@@ -106,8 +103,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -817,4 +812,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/IGB200.unity
   - Assets/Scenes/Pong.unity
   - Assets/Scenes/Platformer.unity
-  playerPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Builds/v02_t02/IGB200.exe
+  playerPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Builds/v02_t04/IGB200.exe
