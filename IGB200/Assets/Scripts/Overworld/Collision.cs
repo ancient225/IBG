@@ -6,10 +6,16 @@ using UnityEngine.SceneManagement;
 public class Collision : MonoBehaviour
 {
     [SerializeField] private GameObject Text;
+    private int UI2;
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        int UI;
+        if (Text.GetComponent<Text>().UI != 100)
+        {
+            UI2 = Text.GetComponent<Text>().UI;
+        }
 
         RaycastHit hit;
         int Bob = 1 << 7;
@@ -24,72 +30,144 @@ public class Collision : MonoBehaviour
         int Sam = 1 << 16;
         int Tom = 1 << 17;
         int Shop = 1 << 18;
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Bob) && Input.GetButton("Fire1"))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Bob))
         {
-            if (UniversalText.story == 0)
+            UI = 100;
+            if (Input.GetKeyDown("e"))
             {
-                UniversalText.story = 1;
+                if (UniversalText.story == 0)
+                {
+                    UniversalText.story = 1;
+                }
+                SceneManager.LoadScene("Pong Explained");
             }
-            SceneManager.LoadScene("Pong");
         }
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Pete) && Input.GetButton("Fire1"))
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Pete))
         {
-            if (UniversalText.story == 1)
+            UI = 100;
+            if (Input.GetKeyDown("e"))
             {
-                UniversalText.story = 2;
+                if (UniversalText.story < 1)
+                {
+                    UI = UniversalText.story + 86;
+                }
+                else
+                {
+                    if (UniversalText.story == 1)
+                    {
+                        UniversalText.story = 2;
+                    }
+                    SceneManager.LoadScene("Platformer Explained");
+                }
             }
-            SceneManager.LoadScene("Platformer");
         }
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Fred) && Input.GetButton("Fire1"))
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Fred))
         {
-            if (UniversalText.story == 2)
+            UI = 100;
+            if (Input.GetKeyDown("e"))
             {
-                UniversalText.story = 3;
+                if (UniversalText.story < 2)
+                {
+                    UI = UniversalText.story + 86;
+                }
+                else
+                {
+                    if (UniversalText.story == 2)
+                    {
+                        UniversalText.story = 3;
+                    }
+                    SceneManager.LoadScene("Snake Explained");
+                }
             }
-            Text.GetComponent<Text>().UI = 92;
         }
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Rebecca) && Input.GetButton("Fire1"))
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Rebecca))
         {
-            if (UniversalText.story == 3)
+            UI = 100;
+            if (Input.GetKeyDown("e"))
             {
-                UniversalText.story = 4;
+                if (UniversalText.story < 3)
+                {
+                    UI = UniversalText.story + 86;
+                }
+                else
+                {
+                    if (UniversalText.story == 3)
+                    {
+                        UniversalText.story = 4;
+                    }
+                    UI = 91;
+                }
             }
-            Text.GetComponent<Text>().UI = 91;
         }
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Shop) && Input.GetButton("Fire1"))
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Shop))
         {
-            Text.GetComponent<Text>().UI = 90;
+            UI = 100;
+            if (Input.GetKeyDown("e"))
+            {
+                UI = 90;
+            }
+        }
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Jenny))
+        {
+            UI = 100;
+            if (Input.GetKeyDown("e"))
+            {
+                UI = 99;
+            }
+        }
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Chole))
+        {
+            UI = 100;
+            if (Input.GetKeyDown("e"))
+            {
+                UI = 98;
+            }
+        }
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Joel))
+        {
+            UI = 100;
+            if (Input.GetKeyDown("e"))
+            {
+                UI = 97;
+            }
+        }
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Britney))
+        {
+            UI = 100;
+            if (Input.GetKeyDown("e"))
+            {
+                UI = 96;
+            }
+        }
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Hannah))
+        {
+            UI = 100;
+            if (Input.GetKeyDown("e"))
+            {
+                UI = 95;
+            }
+        }
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Sam))
+        {
+            UI = 100;
+            if (Input.GetKeyDown("e"))
+            {
+                UI = 94;
+            }
+        }
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Tom))
+        {
+            UI = 100;
+            if (Input.GetKeyDown("e"))
+            {
+                UI = 93;
+            }
+        }
+        else
+        {
+            UI = UI2;
         }
 
-
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Jenny) && Input.GetButton("Fire1"))
-        {
-            Text.GetComponent<Text>().UI = 99;
-        }
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Chole) && Input.GetButton("Fire1"))
-        {
-            Text.GetComponent<Text>().UI = 98;
-        }
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Joel) && Input.GetButton("Fire1"))
-        {
-            Text.GetComponent<Text>().UI = 97;
-        }
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Britney) && Input.GetButton("Fire1"))
-        {
-            Text.GetComponent<Text>().UI = 96;
-        }
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Hannah) && Input.GetButton("Fire1"))
-        {
-            Text.GetComponent<Text>().UI = 95;
-        }
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Sam) && Input.GetButton("Fire1"))
-        {
-            Text.GetComponent<Text>().UI = 94;
-        }
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Tom) && Input.GetButton("Fire1"))
-        {
-            Text.GetComponent<Text>().UI = 93;
-        }
-
+        Text.GetComponent<Text>().UI = UI;
     }
 }

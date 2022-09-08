@@ -12,8 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/IGB200.unity
     guid: 8d510c742594b0e4fa3e0bbb121de6f6
   - enabled: 1
+    path: Assets/Scenes/Pong Explained.unity
+    guid: 7b9ae4050ca468640bba310dc0349ed5
+  - enabled: 1
     path: Assets/Scenes/Pong.unity
     guid: 2bf8b2872bab7ca489ebf785fe5654f4
+  - enabled: 1
+    path: Assets/Scenes/Platformer Explained.unity
+    guid: 1176a5eb63f2f5a47907ab703811bd15
   - enabled: 1
     path: Assets/Scenes/Platformer.unity
     guid: ea01311eb3ea5f7459fbb85087f0a86c
