@@ -9,6 +9,24 @@ public class Buttons : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
     }
+
+    public void Play()
+    {
+        SceneManager.LoadScene("IGB200");
+    }
+    public void Quit()
+    {
+        Application.Quit();
+    }
+    public void Options()
+    {
+        SceneManager.LoadScene("Options");
+    }
+    public void Instructions()
+    {
+        SceneManager.LoadScene("Instructions");
+    }
+
     public void PlayPong()
     {
         SceneManager.LoadScene("Pong");

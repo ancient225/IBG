@@ -15,8 +15,6 @@ public class controlMainMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SceneManager.LoadScene("IGB200");
-
         if (Input.GetKey("escape"))
         {
             Application.Quit();

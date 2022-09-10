@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 17889
+  controlID: 2363
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 17890
+  controlID: 2364
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 17891
+  controlID: 2365
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -422,9 +422,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: e0eefefff8f1feff0aedffff76f0ffffbcf2ffffe0f2ffff86f3ffff92f3ffff9af3ffffa6f3ffffb0f4ffffb4f4ffff62f5ffff2ef6ffff16f7ffff3af7ffff7cf8ffff88f8ffff9af8ffffacf8ffffb2f8ffffb6f8ffff52fbffff86b3000042b500009ab50000
+      m_SelectedIDs: 6e3b0000
+      m_LastClickedID: 15214
+      m_ExpandedIDs: 7cf6ffff88f8ffff38f9ffffecf9ffff02faffff70faffff52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -484,9 +484,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 0.5433915, y: 1.8686424, z: -0.18039405}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 0.5433915, y: 1.8686424, z: -0.18039405}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -533,13 +533,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.030602157, y: -0.011980165, z: 0.0003349105, w: 0.9995185}
+    m_Target: {x: 0.09649561, y: 0.17084236, z: -0.01684741, w: 0.98047584}
     speed: 2
-    m_Value: {x: 0.030600362, y: -0.011979463, z: 0.00033489085, w: 0.9994599}
+    m_Value: {x: 0.096490055, y: 0.17083253, z: -0.016846439, w: 0.9804194}
   m_Size:
-    m_Target: 28.00886
+    m_Target: 7.9435906
     speed: 2
-    m_Value: 28.00886
+    m_Value: 7.9435906
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -602,22 +602,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 8.399994}
-    m_SelectedIDs: 543d0000
-    m_LastClickedID: 15700
-    m_ExpandedIDs: 00000000263d0000283d00002a3d00002c3d00002e3d0000303d0000323d0000343d0000523d00005c3d0000
+    m_SelectedIDs: 123b0000
+    m_LastClickedID: 15122
+    m_ExpandedIDs: 00000000043b0000063b0000083b00000a3b00000c3b00000e3b0000103b0000123b0000143b0000183b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -645,7 +645,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000263d0000283d00002a3d00002c3d00002e3d0000303d0000323d0000343d00005c3d0000
+    m_ExpandedIDs: 00000000043b0000063b0000083b00000a3b00000c3b00000e3b0000103b0000123b0000143b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
