@@ -21,7 +21,7 @@ public class TimerPong : MonoBehaviour
     {
         Timer -= Time.deltaTime;
 
-        info.text = "" + Mathf.RoundToInt(Timer) + "";
+        info.text = "Timer: " + Mathf.RoundToInt(Timer) + "";
 
         if (Timer <= 0)
         {

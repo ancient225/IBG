@@ -42,15 +42,15 @@ public class Text : MonoBehaviour
 
         if (UI == 0)
         {
-            info.text = "Story - Go talk to Bob. Points: " + Points;
+            info.text = "Hey Player, feeling up to exploring QUT today? Try playing a game of ping pong with Bob. Points: " + Points;
         }
         else if (UI == 1)
         {
-            info.text = "More story - Go talk to Pete. Points: " + Points;
+            info.text = "Yo that's pre good! Now let's help out Pete with his chemistry homework. Points: " + Points;
         }
         else if (UI == 2)
         {
-            info.text = "even more story - Go talk to Fred. Points: " + Points;
+            info.text = "Uni level chemistry has nothing on you! Maybe you could help out Fred with his robotics project? Points: " + Points;
         }
         else if (UI == 3)
         {

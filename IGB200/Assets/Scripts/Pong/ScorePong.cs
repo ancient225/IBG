@@ -23,6 +23,6 @@ public class ScorePong : MonoBehaviour
             score = 0;
         }
 
-        info.text = "" + score + "";
+        info.text = "Score: " + score + "";
     }
 }
