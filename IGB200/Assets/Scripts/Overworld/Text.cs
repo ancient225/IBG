@@ -24,7 +24,7 @@ public class Text : MonoBehaviour
         if (!allow)
         {
             t += Time.deltaTime;
-            if (t > 3)
+            if (t > 5)
             {
                 t = 0;
                 allow = true;
