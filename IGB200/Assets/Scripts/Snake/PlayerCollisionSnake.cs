@@ -16,7 +16,7 @@ public class PlayerCollisionSnake : MonoBehaviour
             Destroy(other.gameObject);
             GameObject NEW = Instantiate(Tail, new Vector3 (100, 100, 100), new Quaternion(0, 0, 0, 0));
             GetComponent<PlayermoveSnake>().tails += 1;
-            GetComponent<PlayermoveSnake>().Back[GetComponent<PlayermoveSnake>().tails] = NEW;
+            GetComponent<PlayermoveSnake>().AllTails[GetComponent<PlayermoveSnake>().tails] = NEW;
             UniversalText.Points += 1;
         }
         else

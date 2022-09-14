@@ -8,14 +8,26 @@ public class PlayermoveSnake : MonoBehaviour
     private float t = 0;
     [HideInInspector] public Vector3 Direction;
     private bool startMove;
-    [HideInInspector] private Vector3[] Tails = new Vector3[50];
-    [HideInInspector] public GameObject[] Back = new GameObject[50];
-    private Vector3[] TailDirection = new Vector3[50];
+    [HideInInspector] private Vector3[] Tails = new Vector3[500];
+    [HideInInspector] public GameObject[] AllTails = new GameObject[500];
+    private Vector3[] TailDirection = new Vector3[500];
     [HideInInspector] public int tails = 0;
+    [SerializeField] private bool ShowFace;
+    private int xface;
+    private Vector3 face;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        if (ShowFace)
+        {
+            xface = 180;
+        }
+        else
+        {
+            xface = 0;
+        }
         Direction = new Vector3(1, 0, 0);
         startMove = false;
     }
@@ -23,7 +35,7 @@ public class PlayermoveSnake : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+        if (Input.GetAxis("Horizontal") != 0 && !startMove|| Input.GetAxis("Vertical") != 0 && !startMove)
         {
             setDirection();
             startMove = true;
@@ -48,7 +60,23 @@ public class PlayermoveSnake : MonoBehaviour
 
                 for (int i = 1; i < tails + 1; i++)
                 {
-                    Back[i].transform.position = Tails[i];
+                    AllTails[i].transform.position = Tails[i];
+                    if (TailDirection[i].y == 1)
+                    {
+                        AllTails[i].transform.eulerAngles = new Vector3(0, 0, 90);
+                    }
+                    else if(TailDirection[i].y == -1)
+                    {
+                        AllTails[i].transform.eulerAngles = new Vector3(0, 0, -90);
+                    }
+                    else if(TailDirection[i].x == 1)
+                    {
+                        AllTails[i].transform.eulerAngles = new Vector3(0, 0, 0);
+                    }
+                    else if(TailDirection[i].x == -1)
+                    {
+                        AllTails[i].transform.eulerAngles = new Vector3(0, 0, 180);
+                    }
                 }
 
                 for (int i = tails + 1; i > 0; i--)
@@ -68,21 +96,25 @@ public class PlayermoveSnake : MonoBehaviour
 
         if (x > 0)
         {
+            face = new Vector3(xface, 0, 180);
             Direction.y = 0;
             Direction.x = 1;
         }
         if (x < 0)
         {
+            face = new Vector3(xface, 0, 0);
             Direction.y = 0;
             Direction.x = -1;
         }
         if (y > 0)
         {
+            face  = new Vector3(xface, 0, -90 + xface);
             Direction.y = 1;
             Direction.x = 0;
         }
         if (y < 0)
         {
+            face = new Vector3(xface, 0, 90 + xface);
             Direction.y = -1;
             Direction.x = 0;
         }
@@ -92,24 +124,29 @@ public class PlayermoveSnake : MonoBehaviour
     {
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
+        
 
         if (x > 0 && Direction.x == 0)
         {
+            face = new Vector3(xface, 0, 180);
             Direction.y = 0;
             Direction.x = 1;
         }
         if (x < 0 && Direction.x == 0)
         {
+            face = new Vector3(xface, 0, 0);
             Direction.y = 0;
             Direction.x = -1;
         }
         if (y > 0 && Direction.y == 0)
         {
+            face = new Vector3(xface, 0, -90 + xface);
             Direction.y = 1;
             Direction.x = 0;
         }
         if (y < 0 && Direction.y == 0)
         {
+            face = new Vector3(xface, 0, 90 + xface);
             Direction.y = -1;
             Direction.x = 0;
         }
@@ -121,6 +158,7 @@ public class PlayermoveSnake : MonoBehaviour
 
         pos.x += Direction.x;
         pos.y += Direction.y;
+        transform.eulerAngles = face;
 
         transform.position = pos;
     }

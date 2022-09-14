@@ -19,8 +19,17 @@ EditorBuildSettings:
     guid: 2bf8b2872bab7ca489ebf785fe5654f4
   - enabled: 1
     path: Assets/Scenes/Platformer Explained.unity
-    guid: 1176a5eb63f2f5a47907ab703811bd15
+    guid: 8404c97dbf2d8b04996bb44c250b5faa
+  - enabled: 1
+    path: Assets/Scenes/Snake Explained.unity
+    guid: d39aad81e4b285c47b90324f01efdc3d
+  - enabled: 1
+    path: Assets/Scenes/Snake.unity
+    guid: 3718ad7affe89624d93681a795ab065f
   - enabled: 1
     path: Assets/Scenes/Platformer.unity
     guid: ea01311eb3ea5f7459fbb85087f0a86c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

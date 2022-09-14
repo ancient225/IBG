@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Spin : MonoBehaviour
 {
+    private Vector3 spin;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        spin = new Vector3(Random.Range(30, 90) * 2, Random.Range(30, 90) * 2, Random.Range(30, 90) * 2);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, 45 * Time.deltaTime, 0);
+        transform.Rotate(spin.x * Time.deltaTime, spin.y * Time.deltaTime, spin.z * Time.deltaTime);
     }
 }
