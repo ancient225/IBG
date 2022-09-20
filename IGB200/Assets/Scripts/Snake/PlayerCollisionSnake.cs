@@ -7,7 +7,9 @@ public class PlayerCollisionSnake : MonoBehaviour
 {
 
     [SerializeField] private GameObject AppleSpawner;
+    [SerializeField] private GameObject Score;
     [SerializeField] private GameObject Tail;
+    [SerializeField] private GameObject End;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -18,10 +20,19 @@ public class PlayerCollisionSnake : MonoBehaviour
             GetComponent<PlayermoveSnake>().tails += 1;
             GetComponent<PlayermoveSnake>().AllTails[GetComponent<PlayermoveSnake>().tails] = NEW;
             UniversalText.Points += 1;
+            Score.GetComponent<ScorePong>().score += 1;
         }
-        else
+    }
+
+    private void OnCollisionEnter(UnityEngine.Collision collision)
+    {
+        GameObject[] alltails = GameObject.FindGameObjectsWithTag("tail");
+        foreach (GameObject tail in alltails)
         {
-            SceneManager.LoadScene("IGB200");
+            tail.GetComponent<Rigidbody>().useGravity = true;
         }
+        Destroy(gameObject);
+        Cursor.lockState = CursorLockMode.None;
+        End.SetActive(true);
     }
 }
