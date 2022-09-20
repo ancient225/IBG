@@ -28,10 +28,6 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene("Instructions");
     }
 
-    public void PlayPong()
-    {
-        SceneManager.LoadScene("Pong");
-    }
     public void PlayPlatformer()
     {
         Time.timeScale = 1.0f;
