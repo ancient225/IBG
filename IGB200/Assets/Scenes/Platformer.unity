@@ -1397,6 +1397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Timer: 0
   Score: {fileID: 892479513}
+  End: {fileID: 0}
 --- !u!114 &223305402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7275,7 +7276,7 @@ Transform:
   - {fileID: 1895012882}
   - {fileID: 1591020551}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1030354974
 GameObject:
@@ -9803,7 +9804,7 @@ RectTransform:
   - {fileID: 223305400}
   - {fileID: 980730232}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11084,7 +11085,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1630819888
 PrefabInstance:
