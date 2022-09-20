@@ -12,6 +12,7 @@ public class Buttons : MonoBehaviour
 
     public void Play()
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("IGB200");
     }
     public void Quit()
@@ -33,10 +34,12 @@ public class Buttons : MonoBehaviour
     }
     public void PlayPlatformer()
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("Platformer");
     }
     public void PlaySnake()
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("Snake");
     }
 }

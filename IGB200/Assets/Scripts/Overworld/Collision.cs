@@ -33,19 +33,19 @@ public class Collision : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Bob))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 if (UniversalText.story == 0)
                 {
                     UniversalText.story = 1;
                 }
-                SceneManager.LoadScene("Pong Explained");
+                UI = 91;
             }
         }
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Pete))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 if (UniversalText.story < 1)
                 {
@@ -64,7 +64,7 @@ public class Collision : MonoBehaviour
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Fred))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 if (UniversalText.story < 2)
                 {
@@ -83,7 +83,7 @@ public class Collision : MonoBehaviour
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Rebecca))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 if (UniversalText.story < 3)
                 {
@@ -102,7 +102,7 @@ public class Collision : MonoBehaviour
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Shop))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 UI = 90;
             }
@@ -110,7 +110,7 @@ public class Collision : MonoBehaviour
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Jenny))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 UI = 99;
             }
@@ -118,7 +118,7 @@ public class Collision : MonoBehaviour
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Chole))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 UI = 98;
             }
@@ -126,7 +126,7 @@ public class Collision : MonoBehaviour
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Joel))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 UI = 97;
             }
@@ -134,7 +134,7 @@ public class Collision : MonoBehaviour
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Britney))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 UI = 96;
             }
@@ -142,7 +142,7 @@ public class Collision : MonoBehaviour
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Hannah))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 UI = 95;
             }
@@ -150,7 +150,7 @@ public class Collision : MonoBehaviour
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Sam))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 UI = 94;
             }
@@ -158,7 +158,7 @@ public class Collision : MonoBehaviour
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Tom))
         {
             UI = 100;
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKey("e"))
             {
                 UI = 93;
             }

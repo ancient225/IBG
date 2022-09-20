@@ -7,7 +7,8 @@ public class PlatformerCollision : MonoBehaviour
 {
 
     [SerializeField] private GameObject Score;
-    [SerializeField] private int bounce;
+    [SerializeField] private GameObject Virus;
+    [SerializeField] private GameObject End;
 
     // Start is called before the first frame update
     void Start()
@@ -28,17 +29,16 @@ public class PlatformerCollision : MonoBehaviour
     {
         if(other.tag == "Spike")
         {
-            SceneManager.LoadScene("Platformer");
+            UniversalText.Points += Score.GetComponent<ScorePong>().score;
+            Time.timeScale = 0.0f;
+            Cursor.lockState = CursorLockMode.None;
+            End.SetActive(true);
         }
         else if(other.tag == "Coin")
         {
-            Destroy(other.gameObject);
+            Instantiate(Virus, other.transform.position, new Quaternion(0, 0, 0, 0));
             Score.GetComponent<ScorePong>().score += 1;
-        }
-        else if(other.tag == "Bounce")
-        {
-            gameObject.GetComponent<Rigidbody>().velocity = new Vector3 (0, 0, 0);
-            gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0, bounce, 0), ForceMode.Impulse);
+            Destroy(other.gameObject);
         }
     }
 }

@@ -8,6 +8,7 @@ public class TimerPong : MonoBehaviour
     private TMPro.TextMeshProUGUI info;
     [HideInInspector] public float Timer;
     [SerializeField] private GameObject Score;
+    [SerializeField] private GameObject End;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,9 @@ public class TimerPong : MonoBehaviour
         if (Timer <= 0)
         {
             UniversalText.Points += Score.GetComponent<ScorePong>().score;
-            SceneManager.LoadScene("IGB200");
+            Time.timeScale = 0.0f;
+            Cursor.lockState = CursorLockMode.None;
+            End.SetActive(true);
         }
     }
 }

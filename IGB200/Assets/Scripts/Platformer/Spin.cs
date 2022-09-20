@@ -9,7 +9,7 @@ public class Spin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        spin = new Vector3(Random.Range(30, 90) * 2, Random.Range(30, 90) * 2, Random.Range(30, 90) * 2);
+        spin = new Vector3(Random.Range(-90, 90) * 2, Random.Range(-90, 90) * 2, Random.Range(-90, 90) * 2);
     }
 
     // Update is called once per frame

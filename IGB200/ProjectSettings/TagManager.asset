@@ -12,6 +12,7 @@ TagManager:
   - Bounce
   - apple
   - backWall
+  - tail
   layers:
   - Default
   - TransparentFX
