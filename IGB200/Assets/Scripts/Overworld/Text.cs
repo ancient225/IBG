@@ -42,11 +42,11 @@ public class Text : MonoBehaviour
 
         if (UI == 0)
         {
-            info.text = "Hey Player, feeling up to exploring QUT today? Try playing a game of ping pong with Bob. Points: " + Points;
+            info.text = "Here you are! Welcome to QUT open day! Feeling up to exploring QUT today? Let's meet my friend Bob, he is repersanting the sport club today.Try playing a game of ping pong with Bob. Points: " + Points;
         }
         else if (UI == 1)
         {
-            info.text = "Yo that's pre good! Now let's help out Pete with his chemistry homework. Points: " + Points;
+            info.text = "Yo that's pre good! Now is my friend Pete, he studies chemistry.let's help him out with his chemistry homework. Points: " + Points;
         }
         else if (UI == 2)
         {
@@ -75,7 +75,7 @@ public class Text : MonoBehaviour
         }
         else if (UI == 98)
         {
-            info.text = "Did you know 'interesting facts about certain field One part two' how fasinating.";
+            info.text = "Did you know QUT offers sports scholarships to people of all backgrounds, abilities and financial situations, how fasinating.";
 
             if (allow)
             {
@@ -85,7 +85,7 @@ public class Text : MonoBehaviour
         }
         else if (UI == 97)
         {
-            info.text = "Did you know 'interesting facts about certain field Two Part one' how fasinating.";
+            info.text = "Did you know QUT had a free online resource that teaches robotics from kindergarten to undergraduate level? It's called robot academy, how fasinating.";
 
             if (allow)
             {
@@ -95,7 +95,7 @@ public class Text : MonoBehaviour
         }
         else if (UI == 96)
         {
-            info.text = "Did you know 'interesting facts about certain field Two part two' how fasinating.";
+            info.text = "Did you know that qut offers 23 seperate clubs for sports/recreation? how fasinating.";
 
             if (allow)
             {
@@ -105,7 +105,7 @@ public class Text : MonoBehaviour
         }
         else if (UI == 95)
         {
-            info.text = "Did you know 'interesting facts about certain field Three Part one' how fasinating.";
+            info.text = "In addition to biology, chemistry and physics, QUT also offers classes based on earth and environmental science' how fasinating.";
 
             if (allow)
             {
@@ -115,7 +115,7 @@ public class Text : MonoBehaviour
         }
         else if (UI == 94)
         {
-            info.text = "Did you know 'interesting facts about certain field Three part two' how fasinating.";
+            info.text = "Did you know QUT offers 9 different arts degrees, involving acting, animation, creative writing, dance, drama, film screen and new media, music, technical production and visual arts, how fasinating.";
             if (allow)
             {
                 t = 0;
@@ -124,7 +124,7 @@ public class Text : MonoBehaviour
         }
         else if (UI == 93)
         {
-            info.text = "Did you know 'interesting facts about certain field Four' how fasinating.";
+            info.text = "Did you know that C/C++ is the most common programming language used in robotics how fasinating.";
 
             if (allow)
             {
