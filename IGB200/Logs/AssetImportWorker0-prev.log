@@ -1,241 +1,412 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home China; OS build 22000.978; Version 2009; 64bit' Language: 'zh' Physical Memory: 16124 MB
+OS: 'Windows 10 Home; OS build 22000.978; Version 2009; 64bit' Language: 'en' Physical Memory: 16245 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\unity\2020.3.4f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Lenovo/Documents/GitHub/IBG/IGB200
+C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62486
-Successfully changed project path to: C:/Users/Lenovo/Documents/GitHub/IBG/IGB200
-C:/Users/Lenovo/Documents/GitHub/IBG/IGB200
+65214
+Successfully changed project path to: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200
+C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 137.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
-[Subsystems] Discovering subsystems at path D:/unity/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Lenovo/Documents/GitHub/IBG/IGB200/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
+    Renderer: Intel(R) UHD Graphics (ID=0x9bc4)
     Vendor:   
-    VRAM:     8044 MB
-    Driver:   30.0.15.1264
+    VRAM:     8122 MB
+    Driver:   26.20.100.7642
 Initialize mono
-Mono path[0] = 'D:/unity/2020.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'D:/unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/unity/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000483 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001572 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.159 seconds
+- Completed reload, in  1.058 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002722 seconds.
+Registered in 0.002404 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002198EFEA9C0 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198EB95A40 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C8DB060 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CE6E030 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C8F0270 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198F450020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C8F0270 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C594020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C8F0270 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219903F7430 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CE6E030 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198EE5F020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198F688640 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198EE0B020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.588 seconds
+- Completed reload, in  1.134 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1897 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.0 MB.
-System memory in use after: 88.1 MB.
+System memory in use before: 88.1 MB.
+System memory in use after: 88.2 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2337.
-Total: 1.728800 ms (FindLiveObjects: 0.109100 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.503900 ms  DeleteObjects: 0.083800 ms)
+Total: 1.757800 ms (FindLiveObjects: 0.168700 ms CreateObjectMapping: 0.069100 ms MarkObjects: 1.443900 ms  DeleteObjects: 0.075400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Grass_001.obj
-  artifactKey: Guid(d4f3bb1b26d63de488028a0c3298b02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Grass_001.obj using Guid(d4f3bb1b26d63de488028a0c3298b02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfebb408a24e45fe59b6bf11046f59e') in 0.104595 seconds
-  Import took 0.107110 seconds .
+  path: Assets/Scenes/33.lighting
+  artifactKey: Guid(5e01cd50dcf62da429a4ee2d9888de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/33.lighting using Guid(5e01cd50dcf62da429a4ee2d9888de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbaf92e93b12ccfd3dbdfec5f69edd85') in 0.023206 seconds
+  Import took 0.025758 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_001.obj
-  artifactKey: Guid(0b7eb2ec6c821d34e9b8ba0949dd6b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_001.obj using Guid(0b7eb2ec6c821d34e9b8ba0949dd6b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee1e895eba9df989bb8fc7efb81a0e9') in 0.047742 seconds
-  Import took 0.050062 seconds .
+  Time since last request: 50.088286 seconds.
+  path: Assets/Scenes/MainMenu
+  artifactKey: Guid(d54d4d17289d8a245a26b0ffe83ce70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu using Guid(d54d4d17289d8a245a26b0ffe83ce70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd23a5b77f3439c0972c2ea113d9fec6') in 0.007766 seconds
+  Import took 0.011391 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Bush_002.obj
-  artifactKey: Guid(9a1a9a7b3b46f4048a893497c8d55c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Bush_002.obj using Guid(9a1a9a7b3b46f4048a893497c8d55c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd7a5fe0718e9ad3055f76d25973eb3') in 0.011046 seconds
-  Import took 0.013359 seconds .
+  Time since last request: 0.788676 seconds.
+  path: Assets/Scenes/MainMenu/LightingData.asset
+  artifactKey: Guid(399d40fb71781cf48b2f8a18f86ae1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu/LightingData.asset using Guid(399d40fb71781cf48b2f8a18f86ae1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7138a8b7d18ba6ada4c5ea5759e7cb') in 0.025448 seconds
+  Import took 0.034843 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_006.obj
-  artifactKey: Guid(26345cfe5aee0b34f985873da2691c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_006.obj using Guid(26345cfe5aee0b34f985873da2691c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14bc4904ce3781c9e75241e4e7ca248') in 0.015742 seconds
-  Import took 0.018807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Grass_002.obj
-  artifactKey: Guid(2520fc4128623954986ef551e43fb9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Grass_002.obj using Guid(2520fc4128623954986ef551e43fb9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbe2f4284693715916547c48a2a7566') in 0.012231 seconds
-  Import took 0.014786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_Stump_002.obj
-  artifactKey: Guid(1718c9b27afe67c448d7d6ca37f2025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_Stump_002.obj using Guid(1718c9b27afe67c448d7d6ca37f2025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e0e67f4b55fdb1b2b659e07b0b05e4') in 0.014475 seconds
-  Import took 0.017095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Grass_002.obj
-  artifactKey: Guid(2520fc4128623954986ef551e43fb9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Grass_002.obj using Guid(2520fc4128623954986ef551e43fb9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbe2f4284693715916547c48a2a7566') in 0.011781 seconds
-  Import took 0.014168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_003.obj
-  artifactKey: Guid(13358b0734cda9f468f271104261ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_003.obj using Guid(13358b0734cda9f468f271104261ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05801a3df0d46d940ec5265138f05eb1') in 0.014315 seconds
-  Import took 0.017062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Bush_001.obj
-  artifactKey: Guid(c955aaa2a58dc6141a1b90154beb13d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Bush_001.obj using Guid(c955aaa2a58dc6141a1b90154beb13d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a92ca79287d69cba940bb01b50dd112') in 0.011892 seconds
-  Import took 0.014205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_004.obj
-  artifactKey: Guid(aae73da4d8e67704b82b7d938a1d757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_004.obj using Guid(aae73da4d8e67704b82b7d938a1d757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e41966b6deffd3c22009978a0b40b9') in 0.015135 seconds
-  Import took 0.017850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_005.obj
-  artifactKey: Guid(7a40af13b97ed08468b2d08a59653e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_005.obj using Guid(7a40af13b97ed08468b2d08a59653e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100a6abf8b569326999c48a80d1de2cd') in 0.016474 seconds
-  Import took 0.019680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_Stump_001.obj
-  artifactKey: Guid(50ebe369c635be1429123412fe5086d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_Stump_001.obj using Guid(50ebe369c635be1429123412fe5086d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cc1c3bb38dca4edfe1c90dcd1c0d83') in 0.018709 seconds
-  Import took 0.020968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_002.obj
-  artifactKey: Guid(1300a36e5827e0046a4d8a87df2aa315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_002.obj using Guid(1300a36e5827e0046a4d8a87df2aa315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b9551f24f16e09a007de6b7bbb7e6b') in 0.015306 seconds
-  Import took 0.018051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.666862 seconds.
-  path: Assets/art made/Models/blender_Files
-  artifactKey: Guid(0c413324168140148b38abe714f29d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/blender_Files using Guid(0c413324168140148b38abe714f29d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a38dd5a752a67209e9aa20c7ce1f20') in 0.001865 seconds
-  Import took 0.004850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074751 seconds.
-  path: Assets/art made/Models/blender_Files/4x4_texture.png
-  artifactKey: Guid(c7ea912db679a084d8a1c8922cd3d108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/blender_Files/4x4_texture.png using Guid(c7ea912db679a084d8a1c8922cd3d108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854e6d3dd463ca0aefd91b992155c9b6') in 0.043372 seconds
-  Import took 0.046773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.800845 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(b8341204af025f84d9faa975315f6ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio using Guid(b8341204af025f84d9faa975315f6ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4a808292b5484cdb95889fb7a80c04') in 0.001786 seconds
-  Import took 0.005150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.749496 seconds.
-  path: Assets/art made/Models/dist/obj
-  artifactKey: Guid(2ff2433c154fdb54c8b095b0bd36d15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/dist/obj using Guid(2ff2433c154fdb54c8b095b0bd36d15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489ea28bffd86102c7c1e9ee03156e6c') in 0.001851 seconds
-  Import took 0.005062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.155044 seconds.
-  path: Assets/art made/Models/dist/blend/2.blend
-  artifactKey: Guid(64179567a0704c64c8f4c7851618f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/dist/blend/2.blend using Guid(64179567a0704c64c8f4c7851618f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c923f33431cba2a4d7b0e48a85942b8e') in 0.003900 seconds
-  Import took 0.006205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018614 seconds.
-  path: Assets/art made/Models/dist/blend/2.blend
-  artifactKey: Guid(64179567a0704c64c8f4c7851618f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art made/Models/dist/blend/2.blend using Guid(64179567a0704c64c8f4c7851618f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c923f33431cba2a4d7b0e48a85942b8e') in 0.001816 seconds
-  Import took 0.004038 seconds .
+  Time since last request: 0.004867 seconds.
+  path: Assets/Scenes/MainMenu/ReflectionProbe-0.exr
+  artifactKey: Guid(512dc5461ad00434788cdc96b79fb1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu/ReflectionProbe-0.exr using Guid(512dc5461ad00434788cdc96b79fb1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0096bae30af2ef51b14c11d04f60096c') in 0.072648 seconds
+  Import took 0.078606 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002432 seconds.
+Registered in 0.002003 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002198CEBE020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C77CDB0 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198F41E020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CE6E030 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021992B80020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198EE5F020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198F41E020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C8D1030 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021992B80020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CC80B00 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CE6E030 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198F5DA9E0 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CEBE020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219939F5020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.580 seconds
+- Completed reload, in  0.840 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1856 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.8 MB.
-System memory in use after: 87.8 MB.
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2384.
-Total: 1.422400 ms (FindLiveObjects: 0.112900 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.212900 ms  DeleteObjects: 0.064600 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2371.
+Total: 1.953600 ms (FindLiveObjects: 0.139100 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.707800 ms  DeleteObjects: 0.061000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.372268 seconds.
+  path: Assets/Scenes/IGB200.unity
+  artifactKey: Guid(8d510c742594b0e4fa3e0bbb121de6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/IGB200.unity using Guid(8d510c742594b0e4fa3e0bbb121de6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26f2114887a6c823e042067369a0926') in 0.017545 seconds
+  Import took 0.020967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.567297 seconds.
+  path: Assets/Scenes/New Lighting Settings.lighting
+  artifactKey: Guid(0914ab5b6a1d82548a00b150f92f119c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Lighting Settings.lighting using Guid(0914ab5b6a1d82548a00b150f92f119c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2116290b13e2689461086b8087f2e45') in 0.005812 seconds
+  Import took 0.008780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.443950 seconds.
+  path: Assets/Scenes/IGB200.unity
+  artifactKey: Guid(8d510c742594b0e4fa3e0bbb121de6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/IGB200.unity using Guid(8d510c742594b0e4fa3e0bbb121de6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411a2d1a67884cd78c4d7cc6132d2998') in 0.002043 seconds
+  Import took 0.005961 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005598 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021993B04190 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198D088E10 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021991F76190 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CE6E030 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021992AB1040 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CA8B570 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198F936010 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021992D66020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021992AB1040 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CC80B00 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CE6E030 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021992827C70 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021993B04190 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219933AA980 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 1.764600 ms (FindLiveObjects: 0.147200 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.513700 ms  DeleteObjects: 0.057400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.010203 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(2464d0289be54084e879e387b2558648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(2464d0289be54084e879e387b2558648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fcb496456f5b470a45ae82e391f223') in 0.044687 seconds
+  Import took 0.055303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.260956 seconds.
+  path: Assets/Scenes/Platformer.unity
+  artifactKey: Guid(ea01311eb3ea5f7459fbb85087f0a86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Platformer.unity using Guid(ea01311eb3ea5f7459fbb85087f0a86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ff94968cd08ef90f31951f6e0bdcbc') in 0.007003 seconds
+  Import took 0.010886 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002267 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021993B04190 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198F0499F0 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021993E2F010 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021993780580 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C7133B0 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C97E410 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021993707F80 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021992D66020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C7133B0 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021990B1A010 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021993780580 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198F5DA9E0 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021993B04190 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219933AA980 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2375.
+Total: 1.672900 ms (FindLiveObjects: 0.176600 ms CreateObjectMapping: 0.067300 ms MarkObjects: 1.367900 ms  DeleteObjects: 0.060300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.792136 seconds.
+  path: Assets/Scenes/Snake Explained.unity
+  artifactKey: Guid(d39aad81e4b285c47b90324f01efdc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Snake Explained.unity using Guid(d39aad81e4b285c47b90324f01efdc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432ae6f94e3d9c81039d1e3ba2e95476') in 0.016497 seconds
+  Import took 0.020092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.531238 seconds.
+  path: Assets/Scenes/Snake.unity
+  artifactKey: Guid(3718ad7affe89624d93681a795ab065f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Snake.unity using Guid(3718ad7affe89624d93681a795ab065f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1989b74a915ecd853c0335a08cf1f286') in 0.007346 seconds
+  Import took 0.011072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.359421 seconds.
+  path: Assets/Scenes/33.lighting
+  artifactKey: Guid(5e01cd50dcf62da429a4ee2d9888de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/33.lighting using Guid(5e01cd50dcf62da429a4ee2d9888de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebe970a2e8c605b93fd208594621ade') in 0.003179 seconds
+  Import took 0.006898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033716 seconds.
+  path: Assets/Scenes/33.lighting
+  artifactKey: Guid(5e01cd50dcf62da429a4ee2d9888de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/33.lighting using Guid(5e01cd50dcf62da429a4ee2d9888de84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebe970a2e8c605b93fd208594621ade') in 0.003013 seconds
+  Import took 0.006884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.974102 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(2464d0289be54084e879e387b2558648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(2464d0289be54084e879e387b2558648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad677c8f871d4a56651cdfbcdcfbf77') in 0.002260 seconds
+  Import took 0.005340 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003042 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000219937C8010 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021992B89E50 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219B45ED030 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219931BD540 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C7133B0 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CB43030 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CC4B030 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021992D66020 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C7133B0 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002199371A5A0 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198CE2BC60 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002198C97E410 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219937C8010 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021990A31010 doesn't match image C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.206 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2377.
+Total: 2.323100 ms (FindLiveObjects: 0.292300 ms CreateObjectMapping: 0.125700 ms MarkObjects: 1.827400 ms  DeleteObjects: 0.076300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.5 MB.
+System memory in use after: 51.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2377.
+Total: 1.980500 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.064200 ms MarkObjects: 1.685200 ms  DeleteObjects: 0.056500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
