@@ -62,7 +62,6 @@ public class Text : MonoBehaviour
         }
 
 
-
         if (UI == 99)
         {
             info.text = "Did you know there are two different types of white blood cells? The b lymphocyte blood cells create antibodies and warn the t lymphocyts of invading cells, who then destroy the antibody.";
@@ -132,16 +131,6 @@ public class Text : MonoBehaviour
                 allow = false;
             }
         }
-        else if (UI == 92)
-        {
-            info.text = "Mini Game three Coming soon!!!";
-
-            if (allow)
-            {
-                t = 0;
-                allow = false;
-            }
-        }
         else if (UI == 91)
         {
             info.text = "Mini Game four Coming soon!!!";
@@ -154,7 +143,7 @@ public class Text : MonoBehaviour
         }
         else if (UI == 90)
         {
-            info.text = "Shop coming soon!!!";
+            info.text = "Throw ball in hoop";
 
             if (allow)
             {

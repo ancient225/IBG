@@ -6,11 +6,59 @@ using UnityEngine.SceneManagement;
 public class Collision : MonoBehaviour
 {
     [SerializeField] private GameObject Text;
+    [SerializeField] private GameObject Ballholder;
+    private GameObject current;
+    private bool throwBall;
     private int UI2;
+    private float t = 0;
+
+    private void Start()
+    {
+        throwBall = true;
+    }
+
+    void hold()
+    {
+        if (current != null)
+        {
+            current.GetComponent<Rigidbody>().useGravity = false;
+            current.GetComponent<Rigidbody>().velocity = new Vector3 (0, 0, 0);
+
+            current.transform.parent = Ballholder.transform;
+
+            if (Input.GetKey("e") && !throwBall)
+            {
+                current.transform.parent = null;
+
+                current.GetComponent<Rigidbody>().useGravity = true;
+
+                current.GetComponent<Rigidbody>().AddForce(gameObject.transform.forward * 10, ForceMode.Impulse);
+
+                current = null;
+
+                t = 0;
+            }
+
+        }
+
+        
+    }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        hold();
+
+        t += Time.deltaTime;
+        if (current == null && t > 0.5f)
+        {
+            throwBall = true;
+        }
+        if (current != null && t > 0.5f)
+        {
+            throwBall = false;
+        }
+
         int UI;
         if (Text.GetComponent<Text>().UI != 100)
         {
@@ -29,8 +77,21 @@ public class Collision : MonoBehaviour
         int Hannah = 1 << 15;
         int Sam = 1 << 16;
         int Tom = 1 << 17;
-        int Shop = 1 << 18;
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Bob))
+        int Ball = 1 << 18;
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Ball))
+        {
+            UI = 100;
+            if (Input.GetKey("e") && throwBall)
+            {
+                if (current == null)
+                {
+                    current = hit.transform.gameObject;
+                    t = 0;
+                }
+                UI = 90;
+            }
+        }
+        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Bob))
         {
             UI = 100;
             if (Input.GetKey("e"))
@@ -97,14 +158,6 @@ public class Collision : MonoBehaviour
                     }
                     UI = 91;
                 }
-            }
-        }
-        else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Shop))
-        {
-            UI = 100;
-            if (Input.GetKey("e"))
-            {
-                UI = 90;
             }
         }
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Jenny))
