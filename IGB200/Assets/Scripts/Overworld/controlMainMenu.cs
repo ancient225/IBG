@@ -10,6 +10,7 @@ public class controlMainMenu : MonoBehaviour
     {
         UniversalText.story = 0;
         UniversalText.Points = 0;
+        UniversalText.baskets = 0;
     }
 
     // Update is called once per frame

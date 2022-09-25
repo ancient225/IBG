@@ -42,11 +42,11 @@ public class Text : MonoBehaviour
 
         if (UI == 0)
         {
-            info.text = "Here you are! Welcome to QUT open day! Feeling up to exploring QUT today? Let's meet my friend Bob, he is repersanting the sport club today.Try playing a game of ping pong with Bob. Points: " + Points;
+            info.text = "Here you are! Welcome to QUT open day! Feeling up to exploring QUT today? Let's meet my friend Bob, he is repersanting the sport club today.Try playing a game of Basket ball with Bob. Points: " + Points;
         }
         else if (UI == 1)
         {
-            info.text = "Yo that's pre good! Now is my friend Pete, he studies chemistry.let's help him out with his chemistry homework. Points: " + Points;
+            info.text = "Try get the Ball in the basket! Now my friend Pete, he studies chemistry.let's help him out with his chemistry homework. Points: " + Points;
         }
         else if (UI == 2)
         {
@@ -58,7 +58,7 @@ public class Text : MonoBehaviour
         }
         else if (UI == 4)
         {
-            info.text = "story - Congrates go check out the shop. Points: " + Points + "  Thanks for playing the demo later we are planning for better level design more mini games and models";
+            info.text = "Points: " + Points + "  Thanks for playing the demo later we are planning for better level design more mini games and models";
         }
 
 

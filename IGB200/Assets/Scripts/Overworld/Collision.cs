@@ -7,6 +7,10 @@ public class Collision : MonoBehaviour
 {
     [SerializeField] private GameObject Text;
     [SerializeField] private GameObject Ballholder;
+    [SerializeField] private GameObject BallOne;
+    [SerializeField] private GameObject BallTwo;
+    [SerializeField] private GameObject BallThree;
+    [SerializeField] private GameObject Basket;
     private GameObject current;
     private bool throwBall;
     private int UI2;
@@ -24,6 +28,7 @@ public class Collision : MonoBehaviour
             current.GetComponent<Rigidbody>().useGravity = false;
             current.GetComponent<Rigidbody>().velocity = new Vector3 (0, 0, 0);
 
+            current.transform.position = Ballholder.transform.position;
             current.transform.parent = Ballholder.transform;
 
             if (Input.GetKey("e") && !throwBall)
@@ -32,7 +37,7 @@ public class Collision : MonoBehaviour
 
                 current.GetComponent<Rigidbody>().useGravity = true;
 
-                current.GetComponent<Rigidbody>().AddForce(gameObject.transform.forward * 10, ForceMode.Impulse);
+                current.GetComponent<Rigidbody>().AddForce(gameObject.transform.forward * 6, ForceMode.Impulse);
 
                 current = null;
 
@@ -88,7 +93,6 @@ public class Collision : MonoBehaviour
                     current = hit.transform.gameObject;
                     t = 0;
                 }
-                UI = 90;
             }
         }
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Bob))
@@ -100,7 +104,11 @@ public class Collision : MonoBehaviour
                 {
                     UniversalText.story = 1;
                 }
-                UI = 91;
+                Basket.SetActive(true);
+                BallOne.SetActive(true);
+                BallTwo.SetActive(true);
+                BallThree.SetActive(true);
+                UI = 90;
             }
         }
         else if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 15, Pete))

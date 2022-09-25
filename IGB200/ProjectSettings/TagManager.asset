@@ -13,6 +13,7 @@ TagManager:
   - apple
   - backWall
   - tail
+  - hoop
   layers:
   - Default
   - TransparentFX

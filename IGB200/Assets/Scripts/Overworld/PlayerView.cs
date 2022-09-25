@@ -19,7 +19,7 @@ public class PlayerView : MonoBehaviour
         mouseDirection.y = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
 
         rotationY -= mouseDirection.y;
-        rotationY = Mathf.Clamp(rotationY, -30.0f, 60.0f);
+        rotationY = Mathf.Clamp(rotationY, -50.0f, 60.0f);
 
         gameObject.transform.localRotation = Quaternion.Euler(rotationY, 0.0f, 0.0f);
         Player.localRotation = Quaternion.Euler(0.0f, mouseDirection.x, 0.0f);

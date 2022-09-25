@@ -6,4 +6,5 @@ public class UniversalText
 {
     public static int story;
     public static int Points;
+    public static int baskets;
 }
