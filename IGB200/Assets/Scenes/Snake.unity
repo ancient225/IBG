@@ -1975,7 +1975,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   tails: 0
-  ShowFace: 0
+  ShowFace: 1
 --- !u!65 &1711620767
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -4,16 +4,27 @@ using UnityEngine;
 
 public class wobble : MonoBehaviour
 {
-    int spin;
-    // Start is called before the first frame update
-    void Start()
-    {
-        spin = Random.Range(-45, 45);
-    }
+    [HideInInspector] public int Direction;
+    [HideInInspector] public GameObject player;
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, 0, spin * Time.deltaTime);
+        if (player != null)
+        {
+
+            Vector3 rot = transform.eulerAngles;
+
+            if (transform.eulerAngles.z < Direction)
+            {
+                rot.z += 1000 * Time.deltaTime;
+            }
+            else
+            {
+                rot.z -= 1000 * Time.deltaTime;
+            }
+
+            transform.eulerAngles = rot;
+        }
     }
 }

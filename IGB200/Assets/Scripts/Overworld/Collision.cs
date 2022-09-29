@@ -137,7 +137,7 @@ public class Collision : MonoBehaviour
             {
                 if (UniversalText.story < 2)
                 {
-                    UI = UniversalText.story + 86;
+                    UI = UniversalText.story + 87;
                 }
                 else
                 {
@@ -156,7 +156,7 @@ public class Collision : MonoBehaviour
             {
                 if (UniversalText.story < 3)
                 {
-                    UI = UniversalText.story + 86;
+                    UI = UniversalText.story + 88;
                 }
                 else
                 {
@@ -164,7 +164,7 @@ public class Collision : MonoBehaviour
                     {
                         UniversalText.story = 4;
                     }
-                    UI = 91;
+                    SceneManager.LoadScene("Music Explained");
                 }
             }
         }

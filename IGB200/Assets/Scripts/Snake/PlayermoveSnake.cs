@@ -58,24 +58,25 @@ public class PlayermoveSnake : MonoBehaviour
                     Tails[i] = Tails[i - 1] - TailDirection[i - 1];
                 }
 
+
                 for (int i = 1; i < tails + 1; i++)
                 {
                     AllTails[i].transform.position = Tails[i];
                     if (TailDirection[i].y == 1)
                     {
-                        AllTails[i].transform.eulerAngles = new Vector3(0, 0, 90);
+                        AllTails[i].GetComponent<wobble>().Direction = 90;
                     }
                     else if(TailDirection[i].y == -1)
                     {
-                        AllTails[i].transform.eulerAngles = new Vector3(0, 0, -90);
+                        AllTails[i].GetComponent<wobble>().Direction = 270;
                     }
                     else if(TailDirection[i].x == 1)
                     {
-                        AllTails[i].transform.eulerAngles = new Vector3(0, 0, 0);
+                        AllTails[i].GetComponent<wobble>().Direction = 5;
                     }
                     else if(TailDirection[i].x == -1)
                     {
-                        AllTails[i].transform.eulerAngles = new Vector3(0, 0, 180);
+                        AllTails[i].GetComponent<wobble>().Direction = 180;
                     }
                 }
 

@@ -38,4 +38,9 @@ public class Buttons : MonoBehaviour
         Time.timeScale = 1.0f;
         SceneManager.LoadScene("Snake");
     }
+    public void PlayMusic()
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene("Music");
+    }
 }
