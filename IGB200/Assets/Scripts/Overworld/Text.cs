@@ -61,7 +61,6 @@ public class Text : MonoBehaviour
             info.text = "Points: " + Points + "  Thanks for playing the demo later we are planning for better level design more mini games and models";
         }
 
-
         if (UI == 99)
         {
             info.text = "Did you know there are two different types of white blood cells? The b lymphocyte blood cells create antibodies and warn the t lymphocyts of invading cells, who then destroy the antibody.";
