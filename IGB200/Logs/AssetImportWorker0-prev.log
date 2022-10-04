@@ -15,11 +15,19 @@ C:/Users/Lenovo/Documents/GitHub/IBG/IGB200
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 62486
 Successfully changed project path to: C:/Users/Lenovo/Documents/GitHub/IBG/IGB200
 C:/Users/Lenovo/Documents/GitHub/IBG/IGB200
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 36.29 ms, found 2 plugins.
+=======
+50851
+Successfully changed project path to: C:/Users/Lenovo/Documents/GitHub/IBG/IGB200
+C:/Users/Lenovo/Documents/GitHub/IBG/IGB200
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.89 ms, found 6 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path D:/unity/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,15 +43,24 @@ Initialize mono
 Mono path[0] = 'D:/unity/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.000483 seconds.
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000486 seconds.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.68 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Completed reload, in  1.159 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
@@ -161,10 +178,202 @@ Received Import Request.
   artifactKey: Guid(50ebe369c635be1429123412fe5086d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_Stump_001.obj using Guid(50ebe369c635be1429123412fe5086d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cc1c3bb38dca4edfe1c90dcd1c0d83') in 0.018709 seconds
   Import took 0.020968 seconds .
+=======
+- Completed reload, in  1.164 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003248 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.712 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3047.
+Total: 1.867600 ms (FindLiveObjects: 0.153400 ms CreateObjectMapping: 0.062200 ms MarkObjects: 1.554400 ms  DeleteObjects: 0.096400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/IGB200.unity
+  artifactKey: Guid(8d510c742594b0e4fa3e0bbb121de6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/IGB200.unity using Guid(8d510c742594b0e4fa3e0bbb121de6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bd47431ef974df4be4948c6b455146') in 0.011296 seconds
+  Import took 0.016024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(2464d0289be54084e879e387b2558648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(2464d0289be54084e879e387b2558648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b637ad0692d40c5bfa31045dce6348') in 0.001332 seconds
+  Import took 0.003841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1328.792954 seconds.
+  path: Assets/GabrielBissonnette/Primo - Main Menu Pack/UI/Red Yellow Retro Playful Bingo Game Presentation.png
+  artifactKey: Guid(254b8780f41a4f24ebddbbbcec602ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielBissonnette/Primo - Main Menu Pack/UI/Red Yellow Retro Playful Bingo Game Presentation.png using Guid(254b8780f41a4f24ebddbbbcec602ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e77ff4c3b5b1e140eee2a71a2934ab') in 0.054236 seconds
+  Import took 0.060152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.929329 seconds.
+  path: Assets/art made/Models/UI/Red Yellow Retro Playful Bingo Game Presentation.png
+  artifactKey: Guid(06bedb38f81aead4d839724e70a9ddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Models/UI/Red Yellow Retro Playful Bingo Game Presentation.png using Guid(06bedb38f81aead4d839724e70a9ddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9b2df76830146c892db18d61f3e3a2') in 0.010009 seconds
+  Import took 0.014994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007543 seconds.
+  path: Assets/art made/Models/UI/Red Yellow Retro Playful Bingo Game Presentation.png
+  artifactKey: Guid(06bedb38f81aead4d839724e70a9ddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Models/UI/Red Yellow Retro Playful Bingo Game Presentation.png using Guid(06bedb38f81aead4d839724e70a9ddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9b2df76830146c892db18d61f3e3a2') in 0.014142 seconds
+  Import took 0.017235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.063281 seconds.
+  path: Assets/art made/Skybox
+  artifactKey: Guid(c80227fc256cd5e45a13ee88f64273ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Skybox using Guid(c80227fc256cd5e45a13ee88f64273ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f9fe8fc1ad587ee2df76df440f0b4d') in 0.002274 seconds
+  Import took 0.006908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.213536 seconds.
+  path: Assets/art made/Skybox/Red Yellow Retro Playful Bingo Game Presentation.png
+  artifactKey: Guid(5cccbaf943e08db469014479f8143f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Skybox/Red Yellow Retro Playful Bingo Game Presentation.png using Guid(5cccbaf943e08db469014479f8143f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f213d1099867b678edb7e3658b67686d') in 0.010634 seconds
+  Import took 0.014544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002401 seconds.
+  path: Assets/art made/Skybox/Red Yellow Retro Playful Bingo Game Presentation.png
+  artifactKey: Guid(5cccbaf943e08db469014479f8143f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Skybox/Red Yellow Retro Playful Bingo Game Presentation.png using Guid(5cccbaf943e08db469014479f8143f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f213d1099867b678edb7e3658b67686d') in 0.014158 seconds
+  Import took 0.017392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.126254 seconds.
+  path: Assets/art made/Skybox/Square.png
+  artifactKey: Guid(b789c5b746b3c4144a113897520e69e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Skybox/Square.png using Guid(b789c5b746b3c4144a113897520e69e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5c43bcc0b9c84f80da68bcff0af0ee') in 0.043765 seconds
+  Import took 0.048427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012068 seconds.
+  path: Assets/art made/Skybox/Square.png
+  artifactKey: Guid(b789c5b746b3c4144a113897520e69e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Skybox/Square.png using Guid(b789c5b746b3c4144a113897520e69e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5c43bcc0b9c84f80da68bcff0af0ee') in 0.012631 seconds
+  Import took 0.016203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.867575 seconds.
+  path: Assets/art made/Textures/RobotBody_UV_v01_t02_lambert1_BaseColor.png
+  artifactKey: Guid(f65ce62f5a8b70843834decbe09e8f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/RobotBody_UV_v01_t02_lambert1_BaseColor.png using Guid(f65ce62f5a8b70843834decbe09e8f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175bd2ba922b413ff4d0a2584a628235') in 0.016973 seconds
+  Import took 0.021099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/art made/Textures/SnakeHead.mat
+  artifactKey: Guid(e8692d5f6ff7fac4ebc96bd878e8b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/SnakeHead.mat using Guid(e8692d5f6ff7fac4ebc96bd878e8b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7304cd565ed593271dd9e84eb9d173e4') in 0.101708 seconds
+  Import took 0.106271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Height.png
+  artifactKey: Guid(aca855c17643e074298cbd8a1950f3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Height.png using Guid(aca855c17643e074298cbd8a1950f3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2d392909af88584e7db50554b7d3d9') in 0.014380 seconds
+  Import took 0.019073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/art made/Textures/RobotBody_UV_v01_t02_lambert1_Normal.png
+  artifactKey: Guid(5de4610938806fc419c3ded720813670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/RobotBody_UV_v01_t02_lambert1_Normal.png using Guid(5de4610938806fc419c3ded720813670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de50e20faa9c86ece728e60193fc19f') in 0.016898 seconds
+  Import took 0.021718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/art made/Textures/SnakeBody.mat
+  artifactKey: Guid(a926762f90197a54cab274aef1eb1f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/SnakeBody.mat using Guid(a926762f90197a54cab274aef1eb1f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1720a4d1a03aaf677109a253e2247bac') in 0.032039 seconds
+  Import took 0.035525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/art made/Textures/RobotBody_UV_v01_t02_lambert1_Height.png
+  artifactKey: Guid(f84a2541be2ff9b42bdf983a707f5a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/RobotBody_UV_v01_t02_lambert1_Height.png using Guid(f84a2541be2ff9b42bdf983a707f5a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc8e850dc89a93950ba8374ec2d4d2c') in 0.008100 seconds
+  Import took 0.011519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_BaseColor.png
+  artifactKey: Guid(4cd0127209b16ff43a4d0720e4d81bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_BaseColor.png using Guid(4cd0127209b16ff43a4d0720e4d81bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f488b88b9931f98f28c730ee6147a7') in 0.007024 seconds
+  Import took 0.010635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Roughness.png
+  artifactKey: Guid(1574d2d4456f4834caa5005692662985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Roughness.png using Guid(1574d2d4456f4834caa5005692662985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7c1753b6bf757ffcc636031c41c850') in 0.005090 seconds
+  Import took 0.008743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Metallic.png
+  artifactKey: Guid(1d1c22def3accb04fbf76b26e422e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Metallic.png using Guid(1d1c22def3accb04fbf76b26e422e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4267aa40b8d2b2f8224cae62ff273f46') in 0.005439 seconds
+  Import took 0.009023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/art made/Textures/RobotBody_UV_v01_t02_lambert1_Metallic.png
+  artifactKey: Guid(3694d14319106ad4b8a2c4911b68dd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/RobotBody_UV_v01_t02_lambert1_Metallic.png using Guid(3694d14319106ad4b8a2c4911b68dd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670d5f443168373e3ab6390b9eb2789c') in 0.004463 seconds
+  Import took 0.008226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Normal.png
+  artifactKey: Guid(312c973bd3b06fa4c824a0090f980bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Normal.png using Guid(312c973bd3b06fa4c824a0090f980bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68285defecd440d696932a27c1dd896c') in 0.006474 seconds
+  Import took 0.011499 seconds .
+>>>>>>> Stashed changes
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000189 seconds.
+<<<<<<< Updated upstream
   path: Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_002.obj
   artifactKey: Guid(1300a36e5827e0046a4d8a87df2aa315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/art made/Models/Low_Poly_Foliage_Pack_001 1/OBJ Files/Low_Poly_Tree_002.obj using Guid(1300a36e5827e0046a4d8a87df2aa315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b9551f24f16e09a007de6b7bbb7e6b') in 0.015306 seconds
@@ -217,10 +426,65 @@ Received Import Request.
   artifactKey: Guid(64179567a0704c64c8f4c7851618f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/art made/Models/dist/blend/2.blend using Guid(64179567a0704c64c8f4c7851618f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c923f33431cba2a4d7b0e48a85942b8e') in 0.001816 seconds
   Import took 0.004038 seconds .
+=======
+  path: Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Metallic.png
+  artifactKey: Guid(1d1c22def3accb04fbf76b26e422e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Metallic.png using Guid(1d1c22def3accb04fbf76b26e422e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4267aa40b8d2b2f8224cae62ff273f46') in 0.004894 seconds
+  Import took 0.008030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Normal.png
+  artifactKey: Guid(312c973bd3b06fa4c824a0090f980bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Textures/RobotHead_UV_v01_t02_lambert1_Normal.png using Guid(312c973bd3b06fa4c824a0090f980bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68285defecd440d696932a27c1dd896c') in 0.007086 seconds
+  Import took 0.010257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.932545 seconds.
+  path: Assets/art made/Skybox/Square.png
+  artifactKey: Guid(b789c5b746b3c4144a113897520e69e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Skybox/Square.png using Guid(b789c5b746b3c4144a113897520e69e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdf2382942a3e5e4a9472c936e1734e') in 0.018708 seconds
+  Import took 0.022986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001943 seconds.
+  path: Assets/art made/Skybox/Square.png
+  artifactKey: Guid(b789c5b746b3c4144a113897520e69e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Skybox/Square.png using Guid(b789c5b746b3c4144a113897520e69e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdf2382942a3e5e4a9472c936e1734e') in 0.011897 seconds
+  Import took 0.015405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.422259 seconds.
+  path: Assets/art made/Skybox/Red Yellow Retro Playful Bingo Game Presentation 1.png
+  artifactKey: Guid(ab3d88db5ee16ce4b8ebaa1467c3eb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Skybox/Red Yellow Retro Playful Bingo Game Presentation 1.png using Guid(ab3d88db5ee16ce4b8ebaa1467c3eb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcab62bb428bcb212d1cdb4f7b3064f') in 0.010920 seconds
+  Import took 0.015166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009378 seconds.
+  path: Assets/art made/Skybox/Red Yellow Retro Playful Bingo Game Presentation 1.png
+  artifactKey: Guid(ab3d88db5ee16ce4b8ebaa1467c3eb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Skybox/Red Yellow Retro Playful Bingo Game Presentation 1.png using Guid(ab3d88db5ee16ce4b8ebaa1467c3eb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcab62bb428bcb212d1cdb4f7b3064f') in 0.012895 seconds
+  Import took 0.016119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.493307 seconds.
+  path: Assets/art made/Skybox/Red Yellow Retro Playful Bingo Game Presentation 1.png
+  artifactKey: Guid(ab3d88db5ee16ce4b8ebaa1467c3eb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art made/Skybox/Red Yellow Retro Playful Bingo Game Presentation 1.png using Guid(ab3d88db5ee16ce4b8ebaa1467c3eb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa1208310b7c7b82ebd6b2331b4dabe') in 0.022620 seconds
+  Import took 0.026899 seconds .
+>>>>>>> Stashed changes
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.002432 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -228,14 +492,108 @@ Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.580 seconds
+=======
+Registered in 0.003338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+>>>>>>> Stashed changes
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< Updated upstream
 Unloading 1856 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.8 MB.
 System memory in use after: 87.8 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2384.
 Total: 1.422400 ms (FindLiveObjects: 0.112900 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.212900 ms  DeleteObjects: 0.064600 ms)
+=======
+Unloading 2561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.6 MB.
+System memory in use after: 117.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3098.
+Total: 1.818700 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.508100 ms  DeleteObjects: 0.099200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3139.287868 seconds.
+  path: Assets/Scripts/Snake/wobble.cs
+  artifactKey: Guid(9d833e16e2ebb3c468c0e0344224ec24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snake/wobble.cs using Guid(9d833e16e2ebb3c468c0e0344224ec24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c54517c1b9f0de1972e57114f5d3df9') in 0.014655 seconds
+  Import took 0.020898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.852452 seconds.
+  path: Assets/Scripts/Snake/PlayermoveSnake.cs
+  artifactKey: Guid(31e1886983e082148b6c9597ba69ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snake/PlayermoveSnake.cs using Guid(31e1886983e082148b6c9597ba69ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550ef1d0510f20fdeb6fc48faa6cff60') in 0.001411 seconds
+  Import took 0.005121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016059 seconds.
+  path: Assets/Scripts/Snake/PlayermoveSnake.cs
+  artifactKey: Guid(31e1886983e082148b6c9597ba69ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snake/PlayermoveSnake.cs using Guid(31e1886983e082148b6c9597ba69ee86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550ef1d0510f20fdeb6fc48faa6cff60') in 0.001429 seconds
+  Import took 0.004807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.466566 seconds.
+  path: Assets/Scripts/Snake/PlayerCollisionSnake.cs
+  artifactKey: Guid(97a4b6577d913864980751b45745b06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snake/PlayerCollisionSnake.cs using Guid(97a4b6577d913864980751b45745b06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039d49066ebdd72b2f12897e597bafa8') in 0.002222 seconds
+  Import took 0.017469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009370 seconds.
+  path: Assets/Scripts/Snake/PlayerCollisionSnake.cs
+  artifactKey: Guid(97a4b6577d913864980751b45745b06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snake/PlayerCollisionSnake.cs using Guid(97a4b6577d913864980751b45745b06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039d49066ebdd72b2f12897e597bafa8') in 0.002078 seconds
+  Import took 0.005816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.790464 seconds.
+  path: Assets/Scripts/Snake/AppleSpawnSnake.cs
+  artifactKey: Guid(e69b8d4aa98a5404cbafde4762be397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snake/AppleSpawnSnake.cs using Guid(e69b8d4aa98a5404cbafde4762be397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542729c089e20b56efbce4529b872b7e') in 0.001457 seconds
+  Import took 0.005401 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003181 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.7 MB.
+System memory in use after: 117.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3102.
+Total: 1.860700 ms (FindLiveObjects: 0.166800 ms CreateObjectMapping: 0.057900 ms MarkObjects: 1.544900 ms  DeleteObjects: 0.090300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 677.912352 seconds.
+  path: Assets/Scripts/Overworld/Text.cs
+  artifactKey: Guid(7e42068702f66a244b974b343743102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Overworld/Text.cs using Guid(7e42068702f66a244b974b343743102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbaefc0ec45f4c4e1f88722f4b939ce') in 0.004015 seconds
+  Import took 0.007580 seconds .
+>>>>>>> Stashed changes
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

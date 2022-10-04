@@ -1,31 +1,133 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
+<<<<<<< Updated upstream
     m_FilePath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Packages/manifest.json
+=======
+    m_FilePath: C:/Users/n11051256/Documents/GitHub/IBG/IGB200/Packages/manifest.json
+>>>>>>> Stashed changes
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 637991823622372443
     m_Hash: 1234442778
   m_LockFileStatus:
     m_FilePath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Packages/packages-lock.json
+=======
+      ticks: 638004379216597561
+    m_Hash: 4291161648
+  m_LockFileStatus:
+    m_FilePath: C:/Users/n11051256/Documents/GitHub/IBG/IGB200/Packages/packages-lock.json
+>>>>>>> Stashed changes
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 637991823622382428
     m_Hash: 3932301164
+=======
+      ticks: 638004379479684518
+    m_Hash: 1364698422
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+<<<<<<< Updated upstream
+=======
+    - packageId: com.unity.2d.psdimporter@4.2.0
+      testable: 0
+      isDirectDependency: 1
+      version: 4.2.0
+      source: 1
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.2d.psdimporter@4.2.0
+      assetPath: Packages/com.unity.2d.psdimporter
+      name: com.unity.2d.psdimporter
+      displayName: 2D PSD Importer
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop
+        Big) file format. The ScriptedImporter is currently targeted for users who
+        wants to create multi Sprite character animation using Unity 2D Animation
+        Package.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 4.2.0
+        compatible:
+        - 4.2.0
+        verified: 4.2.0
+      dependencies:
+      - name: com.unity.2d.common
+        version: 4.1.0
+      - name: com.unity.2d.animation
+        version: 5.1.0
+      - name: com.unity.2d.sprite
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.2d.common
+        version: 4.1.0
+      - name: com.unity.2d.sprite
+        version: 1.0.0
+      - name: com.unity.modules.uielements
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.uielementsnative
+        version: 1.0.0
+      - name: com.unity.2d.animation
+        version: 5.1.0
+      - name: com.unity.mathematics
+        version: 1.1.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      keywords:
+      - 2d
+      - psdimporter
+      - assetimporter
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/2d.git
+        revision: e1ff2896b994f5eb1cc6bec519c643b3e2cd32ec
+        path: 
+>>>>>>> Stashed changes
     - packageId: com.unity.collab-proxy@1.15.12
       testable: 0
       isDirectDependency: 1
       version: 1.15.12
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\PackageCache\com.unity.collab-proxy@1.15.12
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.collab-proxy@1.15.12
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -43,95 +145,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.2.3-preview
-        - 1.2.4-preview
-        - 1.2.6
-        - 1.2.7
-        - 1.2.9
-        - 1.2.11
-        - 1.2.15
-        - 1.2.16
-        - 1.2.17-preview.3
-        - 1.3.2
-        - 1.3.3
-        - 1.3.4
-        - 1.3.5
-        - 1.3.6
-        - 1.3.7
-        - 1.3.8
-        - 1.3.9
-        - 1.4.9
-        - 1.5.7
-        - 1.6.0
-        - 1.7.1
-        - 1.8.0
-        - 1.9.0
-        - 1.10.2
-        - 1.11.2
-        - 1.12.5
-        - 1.13.5
-        - 1.14.1
-        - 1.14.4
-        - 1.14.7
-        - 1.14.9
-        - 1.14.12
-        - 1.14.13
-        - 1.14.15
-        - 1.14.16
-        - 1.14.17
-        - 1.14.18
-        - 1.15.1
-        - 1.15.4
-        - 1.15.7
-        - 1.15.9
         - 1.15.12
-        - 1.15.13
-        - 1.15.15
-        - 1.15.16
-        - 1.15.17
-        - 1.15.18
-        - 1.17.0
-        - 1.17.1
-        - 1.17.2
-        - 2.0.0-preview.6
-        - 2.0.0-preview.8
-        - 2.0.0-preview.15
-        - 2.0.0-preview.17
-        - 2.0.0-preview.20
-        - 2.0.0-preview.21
-        - 2.0.0-preview.22
-        - 2.1.0-preview.3
-        - 2.1.0-preview.5
-        - 2.1.0-preview.6
         compatible:
-        - 1.3.9
-        - 1.4.9
-        - 1.5.7
-        - 1.6.0
-        - 1.8.0
-        - 1.10.2
-        - 1.12.5
-        - 1.14.1
-        - 1.14.4
-        - 1.14.7
-        - 1.14.9
-        - 1.14.12
-        - 1.14.13
-        - 1.14.15
-        - 1.14.16
-        - 1.14.17
-        - 1.14.18
-        - 2.0.0-preview.6
-        - 2.0.0-preview.8
-        - 2.0.0-preview.15
-        - 2.0.0-preview.17
-        - 2.0.0-preview.20
-        - 2.0.0-preview.21
-        - 2.0.0-preview.22
-        - 2.1.0-preview.3
-        - 2.1.0-preview.5
-        - 2.1.0-preview.6
-        verified: 1.3.9
+        - 1.15.12
+        verified: 1.15.12
       dependencies:
       - name: com.unity.services.core
         version: 1.0.1
@@ -166,7 +183,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637789721280000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -179,7 +196,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\PackageCache\com.unity.ide.rider@2.0.7
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.ide.rider@2.0.7
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -196,69 +217,9 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.2
-        - 1.0.6
-        - 1.0.8
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2-preview
-        - 1.1.2-preview.2
-        - 1.1.3-preview.1
-        - 1.1.4-preview
-        - 1.1.4
-        - 1.2.0-preview
-        - 1.2.1
-        - 2.0.0-preview
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
         - 2.0.7
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.0.4
-        - 3.0.5
-        - 3.0.6
-        - 3.0.7
-        - 3.0.9
-        - 3.0.10
-        - 3.0.12
-        - 3.0.13
-        - 3.0.14
-        - 3.0.15
         compatible:
-        - 1.0.2
-        - 1.0.6
-        - 1.0.8
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2-preview
-        - 1.1.2-preview.2
-        - 1.1.3-preview.1
-        - 1.1.4-preview
-        - 1.1.4
-        - 1.2.0-preview
-        - 1.2.1
-        - 2.0.0-preview
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
         - 2.0.7
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.0.4
-        - 3.0.5
-        - 3.0.6
-        - 3.0.7
-        - 3.0.9
-        - 3.0.10
-        - 3.0.12
-        - 3.0.13
-        - 3.0.14
-        - 3.0.15
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -285,7 +246,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637334461080000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -298,7 +259,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.14
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\PackageCache\com.unity.ide.visualstudio@2.0.14
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.ide.visualstudio@2.0.14
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -315,46 +280,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.4
-        - 1.0.9
-        - 1.0.10
-        - 1.0.11
-        - 2.0.0
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
-        - 2.0.7
-        - 2.0.8
-        - 2.0.9
-        - 2.0.11
-        - 2.0.12
         - 2.0.14
-        - 2.0.15
-        - 2.0.16
         compatible:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.4
-        - 1.0.9
-        - 1.0.10
-        - 1.0.11
-        - 2.0.0
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
-        - 2.0.7
-        - 2.0.8
-        - 2.0.9
-        - 2.0.11
-        - 2.0.12
         - 2.0.14
-        - 2.0.15
-        - 2.0.16
-        verified: 2.0.16
+        verified: 2.0.14
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -380,20 +309,24 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637782923640000000
+      datePublishedTicks: 0
       documentationUrl: 
-      hasRepository: 0
+      hasRepository: 1
       repository:
-        type: 
-        url: 
-        revision: 
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
+        revision: f1e8af5df9e2507088a8622d173c9a7d5a03a882
         path: 
     - packageId: com.unity.ide.vscode@1.2.4
       testable: 0
       isDirectDependency: 1
       version: 1.2.4
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\PackageCache\com.unity.ide.vscode@1.2.4
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.ide.vscode@1.2.5
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -466,7 +399,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.5.2
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\PackageCache\com.unity.probuilder@4.5.2
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.probuilder@4.5.2
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.probuilder
       name: com.unity.probuilder
       displayName: ProBuilder
@@ -488,75 +425,11 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 3.0.0
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.0.6
-        - 3.0.8
-        - 3.0.9
-        - 3.10.1
-        - 4.0.2
-        - 4.0.3
-        - 4.0.4
-        - 4.0.5
-        - 4.1.0
-        - 4.1.2
-        - 4.2.1
-        - 4.2.2-preview.1
-        - 4.2.2-preview.2
-        - 4.2.3
-        - 4.2.4-preview.0
-        - 4.3.0-preview.0
-        - 4.3.0-preview.1
-        - 4.3.0-preview.2
-        - 4.3.0-preview.4
-        - 4.3.0-preview.6
-        - 4.3.0-preview.7
-        - 4.3.0-preview.8
-        - 4.3.0-preview.9
-        - 4.3.1
-        - 4.4.0-preview.1
-        - 4.4.0
         - 4.5.0
         - 4.5.2
-        - 5.0.0-pre.7
-        - 5.0.0-pre.10
-        - 5.0.1
-        - 5.0.3
-        - 5.0.4
-        - 5.0.6
         compatible:
-        - 4.0.2
-        - 4.0.3
-        - 4.0.4
-        - 4.0.5
-        - 4.1.0
-        - 4.1.2
-        - 4.2.1
-        - 4.2.2-preview.1
-        - 4.2.2-preview.2
-        - 4.2.3
-        - 4.2.4-preview.0
-        - 4.3.0-preview.0
-        - 4.3.0-preview.1
-        - 4.3.0-preview.2
-        - 4.3.0-preview.4
-        - 4.3.0-preview.6
-        - 4.3.0-preview.7
-        - 4.3.0-preview.8
-        - 4.3.0-preview.9
-        - 4.3.1
-        - 4.4.0-preview.1
-        - 4.4.0
         - 4.5.0
         - 4.5.2
-        - 5.0.0-pre.7
-        - 5.0.0-pre.10
-        - 5.0.1
-        - 5.0.3
-        - 5.0.4
-        - 5.0.6
         verified: 4.5.2
       dependencies:
       - name: com.unity.settings-manager
@@ -597,7 +470,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637613656650000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -605,12 +478,88 @@ m_PackageAssets:
         url: https://github.com/Unity-Technologies/com.unity.probuilder.git
         revision: 27f52072e5f94638d1f81bc53df38e59d5bac785
         path: 
+<<<<<<< Updated upstream
     - packageId: com.unity.test-framework@1.1.29
+=======
+    - packageId: com.unity.recorder@2.5.7
+      testable: 0
+      isDirectDependency: 1
+      version: 2.5.7
+      source: 1
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.recorder@2.5.7
+      assetPath: Packages/com.unity.recorder
+      name: com.unity.recorder
+      displayName: Unity Recorder
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'The Unity Recorder allows you to capture and save data from the
+        Unity Editor during Play Mode: animations, videos, images, audio, and more.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.5.7
+        compatible:
+        - 2.5.7
+        verified: 2.5.7
+      dependencies:
+      - name: com.unity.timeline
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.timeline
+        version: 1.4.8
+      - name: com.unity.modules.director
+        version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      - name: com.unity.modules.particlesystem
+        version: 1.0.0
+      keywords:
+      - unity
+      - recorder
+      - recording
+      - capture
+      - video
+      - animation
+      - clip
+      - images
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.recorder.git
+        revision: a59deb20019b176e95dd8efa2f9b41b8e4a0bb96
+        path: 
+    - packageId: com.unity.test-framework@1.1.31
+>>>>>>> Stashed changes
       testable: 0
       isDirectDependency: 1
       version: 1.1.29
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\PackageCache\com.unity.test-framework@1.1.29
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.test-framework@1.1.31
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -663,9 +612,6 @@ m_PackageAssets:
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
-        - 1.1.24
-        - 1.1.26
-        - 1.1.27
         - 1.1.29
         - 1.1.30
         - 1.1.31
@@ -716,7 +662,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\PackageCache\com.unity.textmeshpro@3.0.6
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.textmeshpro@3.0.6
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -751,99 +701,9 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.1.2
-        - 1.0.21
-        - 1.0.23
-        - 1.0.25
-        - 1.0.26
-        - 1.1.0
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        - 1.2.4
-        - 1.3.0-preview
-        - 1.3.0
-        - 1.4.0-preview.1b
-        - 1.4.0-preview.2a
-        - 1.4.0-preview.3a
-        - 1.4.0
-        - 1.4.1-preview.1
-        - 1.4.1
-        - 1.5.0-preview.1
-        - 1.5.0-preview.2
-        - 1.5.0-preview.3
-        - 1.5.0-preview.4
-        - 1.5.0-preview.5
-        - 1.5.0-preview.6
-        - 1.5.0-preview.7
-        - 1.5.0-preview.8
-        - 1.5.0-preview.10
-        - 1.5.0-preview.11
-        - 1.5.0-preview.12
-        - 1.5.0-preview.13
-        - 1.5.0-preview.14
-        - 1.5.0
-        - 1.5.1
-        - 1.5.3
-        - 1.5.4
-        - 1.5.5
-        - 1.5.6
-        - 1.6.0-preview.1
-        - 2.0.0
-        - 2.0.1-preview.1
-        - 2.0.1
-        - 2.1.0-preview.1
-        - 2.1.0-preview.2
-        - 2.1.0-preview.3
-        - 2.1.0-preview.4
-        - 2.1.0-preview.5
-        - 2.1.0-preview.7
-        - 2.1.0-preview.8
-        - 2.1.0-preview.10
-        - 2.1.0-preview.11
-        - 2.1.0-preview.12
-        - 2.1.0-preview.13
-        - 2.1.0-preview.14
-        - 2.1.0
-        - 2.1.1
-        - 2.1.3
-        - 2.1.4
-        - 2.1.5
-        - 2.1.6
-        - 2.2.0-preview.1
-        - 2.2.0-preview.2
-        - 2.2.0-preview.3
-        - 3.0.0-preview.1
-        - 3.0.0-preview.3
-        - 3.0.0-preview.4
-        - 3.0.0-preview.5
-        - 3.0.0-preview.7
-        - 3.0.0-preview.8
-        - 3.0.0-preview.10
-        - 3.0.0-preview.11
-        - 3.0.0-preview.12
-        - 3.0.0-preview.13
-        - 3.0.0-preview.14
-        - 3.0.0
-        - 3.0.1
-        - 3.0.3
-        - 3.0.4
-        - 3.0.5
         - 3.0.6
-        - 3.2.0-pre.1
-        - 3.2.0-pre.2
-        - 3.2.0-pre.3
-        - 4.0.0-pre.1
         compatible:
-        - 3.0.1
-        - 3.0.3
-        - 3.0.4
-        - 3.0.5
         - 3.0.6
-        - 3.2.0-pre.1
-        - 3.2.0-pre.2
-        - 3.2.0-pre.3
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -873,7 +733,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637547111200000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -886,7 +746,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\PackageCache\com.unity.timeline@1.4.8
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.timeline@1.4.8
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -902,107 +766,9 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        - 1.2.4
-        - 1.2.5
-        - 1.2.6
-        - 1.2.7
-        - 1.2.9
-        - 1.2.10
-        - 1.2.11
-        - 1.2.12
-        - 1.2.13
-        - 1.2.14
-        - 1.2.15
-        - 1.2.16
-        - 1.2.17
-        - 1.2.18
-        - 1.3.0-preview.2
-        - 1.3.0-preview.3
-        - 1.3.0-preview.5
-        - 1.3.0-preview.6
-        - 1.3.0-preview.7
-        - 1.3.0
-        - 1.3.1
-        - 1.3.2
-        - 1.3.3
-        - 1.3.4
-        - 1.3.5
-        - 1.3.6
-        - 1.3.7
-        - 1.4.0-preview.1
-        - 1.4.0-preview.2
-        - 1.4.0-preview.3
-        - 1.4.0-preview.5
-        - 1.4.0-preview.6
-        - 1.4.0-preview.7
-        - 1.4.0
-        - 1.4.1
-        - 1.4.2
-        - 1.4.3
-        - 1.4.4
-        - 1.4.5
-        - 1.4.6
-        - 1.4.7
         - 1.4.8
-        - 1.5.0-pre.2
-        - 1.5.0-preview.1
-        - 1.5.0-preview.2
-        - 1.5.0-preview.3
-        - 1.5.0-preview.4
-        - 1.5.0-preview.5
-        - 1.5.1-pre.1
-        - 1.5.1-pre.2
-        - 1.5.1-pre.3
-        - 1.5.2
-        - 1.5.4
-        - 1.5.5
-        - 1.5.6
-        - 1.5.7
-        - 1.6.0-pre.1
-        - 1.6.0-pre.3
-        - 1.6.0-pre.4
-        - 1.6.0-pre.5
-        - 1.6.1
-        - 1.6.2
-        - 1.6.3
-        - 1.6.4
-        - 1.7.0-pre.1
-        - 1.7.0-pre.2
-        - 1.7.0
-        - 1.7.1
         compatible:
-        - 1.4.7
         - 1.4.8
-        - 1.5.0-pre.2
-        - 1.5.0-preview.1
-        - 1.5.0-preview.2
-        - 1.5.0-preview.3
-        - 1.5.0-preview.4
-        - 1.5.0-preview.5
-        - 1.5.1-pre.1
-        - 1.5.1-pre.2
-        - 1.5.1-pre.3
-        - 1.5.2
-        - 1.5.4
-        - 1.5.5
-        - 1.5.6
-        - 1.5.7
-        - 1.6.0-pre.1
-        - 1.6.0-pre.3
-        - 1.6.0-pre.4
-        - 1.6.0-pre.5
-        - 1.6.1
-        - 1.6.2
-        - 1.6.3
-        - 1.6.4
-        - 1.7.0-pre.1
-        - 1.7.0-pre.2
-        - 1.7.0
-        - 1.7.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -1040,7 +806,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637557616100000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -1053,7 +819,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.ugui@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1116,7 +886,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.ai@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1164,7 +938,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1212,7 +990,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.animation@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1260,7 +1042,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1308,7 +1094,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.audio@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1356,7 +1146,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.cloth@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1408,7 +1202,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.director@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1464,7 +1262,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1513,7 +1315,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.imgui@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1561,7 +1367,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1609,7 +1419,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1657,7 +1471,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.physics@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1705,7 +1523,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1753,7 +1575,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1805,7 +1631,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.terrain@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1853,7 +1683,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1909,7 +1743,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -1961,7 +1799,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.ui@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2009,7 +1851,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.uielements@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2073,7 +1919,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.umbra@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2121,7 +1971,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2177,7 +2031,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2225,7 +2083,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2281,7 +2143,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2337,7 +2203,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2393,7 +2263,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2465,7 +2339,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2517,7 +2395,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.video@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2577,7 +2459,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.vr@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2639,7 +2525,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.wind@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2687,7 +2577,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.xr@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2747,7 +2641,11 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2799,7 +2697,11 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
+<<<<<<< Updated upstream
       resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2858,7 +2760,11 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\PackageCache\com.unity.ext.nunit@1.0.6
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.ext.nunit@1.0.6
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2874,23 +2780,9 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.1.5-preview
-        - 0.1.6-preview
-        - 0.1.9-preview
-        - 1.0.0
-        - 1.0.5
         - 1.0.6
-        - 2.0.2
-        - 2.0.3
         compatible:
-        - 0.1.5-preview
-        - 0.1.6-preview
-        - 0.1.9-preview
-        - 1.0.0
-        - 1.0.5
         - 1.0.6
-        - 2.0.2
-        - 2.0.3
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -2910,7 +2802,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637429759280000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -2923,7 +2815,11 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.3
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\PackageCache\com.unity.settings-manager@1.0.3
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.settings-manager@1.0.3
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.settings-manager
       name: com.unity.settings-manager
       displayName: Settings Manager
@@ -2939,23 +2835,9 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.1.0-preview.4
-        - 0.1.0-preview.8
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
         - 1.0.3
-        - 2.0.0
-        - 2.0.1
         compatible:
-        - 0.1.0-preview.4
-        - 0.1.0-preview.8
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
         - 1.0.3
-        - 2.0.0
-        - 2.0.1
         verified: 1.0.3
       dependencies: []
       resolvedDependencies: []
@@ -2972,12 +2854,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637300096300000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
         revision: 473664ccba1496294b741cf169740a5d54b3d0b6
         path: 
     - packageId: com.unity.services.core@1.0.1
@@ -2985,7 +2867,11 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.1
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IGB200\Library\PackageCache\com.unity.services.core@1.0.1
+=======
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.services.core@1.0.1
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.services.core
       name: com.unity.services.core
       displayName: Services Core
@@ -3005,37 +2891,9 @@ m_PackageAssets:
       versions:
         all:
         - 1.0.1
-        - 1.1.0-pre.7
-        - 1.1.0-pre.8
-        - 1.1.0-pre.9
-        - 1.1.0-pre.10
-        - 1.1.0-pre.11
-        - 1.1.0-pre.41
-        - 1.1.0-pre.69
-        - 1.2.0
-        - 1.3.1
-        - 1.3.2
-        - 1.4.0
-        - 1.4.1
-        - 1.4.2
-        - 1.4.3
         compatible:
         - 1.0.1
-        - 1.1.0-pre.7
-        - 1.1.0-pre.8
-        - 1.1.0-pre.9
-        - 1.1.0-pre.10
-        - 1.1.0-pre.11
-        - 1.1.0-pre.41
-        - 1.1.0-pre.69
-        - 1.2.0
-        - 1.3.1
-        - 1.3.2
-        - 1.4.0
-        - 1.4.1
-        - 1.4.2
-        - 1.4.3
-        verified: 
+        verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
         version: 1.0.0
@@ -3055,7 +2913,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637604883250000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3063,7 +2921,261 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
         revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
         path: 
+<<<<<<< Updated upstream
   m_LocalPackages:
     m_LocalFileStatus: []
 m_ProjectPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Packages
 m_EditorVersion: 2020.3.4f1 (0abb6314276a)
+=======
+    - packageId: com.unity.2d.common@4.1.0
+      testable: 0
+      isDirectDependency: 0
+      version: 4.1.0
+      source: 1
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.2d.common@4.1.0
+      assetPath: Packages/com.unity.2d.common
+      name: com.unity.2d.common
+      displayName: 2D Common
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: 2D Common is a package that contains shared functionalities that
+        are used by most of the other 2D packages.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 4.1.0
+        compatible:
+        - 4.1.0
+        verified: 4.1.0
+      dependencies:
+      - name: com.unity.2d.sprite
+        version: 1.0.0
+      - name: com.unity.modules.uielements
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.2d.sprite
+        version: 1.0.0
+      - name: com.unity.modules.uielements
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.uielementsnative
+        version: 1.0.0
+      keywords:
+      - 2d
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/2d.git
+        revision: e1ff2896b994f5eb1cc6bec519c643b3e2cd32ec
+        path: 
+    - packageId: com.unity.2d.animation@5.1.0
+      testable: 0
+      isDirectDependency: 0
+      version: 5.1.0
+      source: 1
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.2d.animation@5.1.0
+      assetPath: Packages/com.unity.2d.animation
+      name: com.unity.2d.animation
+      displayName: 2D Animation
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: 2D Animation provides all the necessary tooling and runtime components
+        for skeletal animation using Sprites.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 5.1.0
+        compatible:
+        - 5.1.0
+        verified: 5.1.0
+      dependencies:
+      - name: com.unity.2d.common
+        version: 4.1.0
+      - name: com.unity.mathematics
+        version: 1.1.0
+      - name: com.unity.2d.sprite
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      - name: com.unity.modules.uielements
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.2d.common
+        version: 4.1.0
+      - name: com.unity.2d.sprite
+        version: 1.0.0
+      - name: com.unity.modules.uielements
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.uielementsnative
+        version: 1.0.0
+      - name: com.unity.mathematics
+        version: 1.1.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      keywords:
+      - 2d
+      - animation
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/2d.git
+        revision: e1ff2896b994f5eb1cc6bec519c643b3e2cd32ec
+        path: 
+    - packageId: com.unity.2d.sprite@1.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      assetPath: Packages/com.unity.2d.sprite
+      name: com.unity.2d.sprite
+      displayName: 2D Sprite
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: Use Unity Sprite Editor Window to create and edit Sprite asset
+        properties like pivot, borders and Physics shape
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - sprite
+      - sprite editor window
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.mathematics@1.1.0
+      testable: 0
+      isDirectDependency: 0
+      version: 1.1.0
+      source: 1
+      resolvedPath: C:\Users\n11051256\Documents\GitHub\IBG\IGB200\Library\PackageCache\com.unity.mathematics@1.1.0
+      assetPath: Packages/com.unity.mathematics
+      name: com.unity.mathematics
+      displayName: Mathematics
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Unity's C# SIMD math library providing vector types and math functions
+        with a shader like syntax.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.1.0
+        - 1.2.1
+        - 1.2.5
+        compatible:
+        - 1.1.0
+        - 1.2.1
+        - 1.2.5
+        verified: 1.2.5
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.com:Unity-Technologies/Unity.Mathematics.git
+        revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
+        path: 
+  m_LocalPackages:
+    m_LocalFileStatus: []
+m_ProjectPath: C:/Users/n11051256/Documents/GitHub/IBG/IGB200/Packages
+m_EditorVersion: 2020.3.29f1 (2ff179115da0)
+>>>>>>> Stashed changes
