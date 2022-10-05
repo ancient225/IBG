@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Collision : MonoBehaviour
 {
+    [SerializeField] private GameObject Player;
     [SerializeField] private GameObject Text;
     [SerializeField] private GameObject Ballholder;
     [SerializeField] private GameObject BallOne;
@@ -61,6 +62,7 @@ public class Collision : MonoBehaviour
         }
         if (current != null && t > 0.5f)
         {
+            //Player.GetComponent<LineScript>().updateTragectory(gameObject.transform.forward * 6, current.GetComponent<Rigidbody>(), Ballholder.transform.position);
             throwBall = false;
         }
 
