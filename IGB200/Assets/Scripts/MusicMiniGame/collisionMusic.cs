@@ -12,6 +12,9 @@ public class collisionMusic : MonoBehaviour
     [SerializeField] private GameObject ENote;
     [SerializeField] private GameObject CNote;
     [SerializeField] private GameObject DNote;
+    [SerializeField] private GameObject FNote;
+    [SerializeField] private GameObject GNote;
+    [SerializeField] private GameObject BigGNote;
 
     private GameObject Holding;
     private string Note;
@@ -55,6 +58,21 @@ public class collisionMusic : MonoBehaviour
                 {
                     Instantiate(DNote);
                 }
+                else if (Note == "f")
+                {
+                    Instantiate(FNote);
+                }
+                else if (Note == "g")
+                {
+                    if (Holding.tag == "G")
+                    {
+                        Instantiate(GNote);
+                    }
+                    else
+                    {
+                        Instantiate(BigGNote);
+                    }
+                }
                 Destroy(Holding);
                 Holding = null;
                 col = false;
@@ -85,6 +103,27 @@ public class collisionMusic : MonoBehaviour
             if (Holding == null)
             {
                 Set(other.gameObject, "d");
+            }
+        }
+        else if(other.tag == "F")
+        {
+            if (Holding == null)
+            {
+                Set(other.gameObject, "f");
+            }
+        }
+        else if(other.tag == "G")
+        {
+            if (Holding == null)
+            {
+                Set(other.gameObject, "g");
+            }
+        }
+        else if(other.tag == "BigG")
+        {
+            if (Holding == null)
+            {
+                Set(other.gameObject, "g");
             }
         }
     }
