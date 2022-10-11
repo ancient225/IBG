@@ -12,6 +12,18 @@ public class collisionMusic : MonoBehaviour
     [SerializeField] private GameObject ENote;
     [SerializeField] private GameObject CNote;
     [SerializeField] private GameObject DNote;
+    [SerializeField] private GameObject FNote;
+    [SerializeField] private GameObject GNote;
+    [SerializeField] private GameObject BigGNote;
+
+    private GameObject Holding;
+    private string Note;
+
+    private void Set(GameObject hold, string note)
+    {
+        Holding = hold;
+        Note = note;
+    }
 
     private void Start()
     {
@@ -29,6 +41,43 @@ public class collisionMusic : MonoBehaviour
         {
             ren.material = matTwo;
         }
+
+        if (Note != null)
+        {
+            if (Input.GetKeyDown(Note) && Holding)
+            {
+                if (Note == "e")
+                {
+                    Instantiate(ENote);
+                }
+                else if (Note == "c")
+                {
+                    Instantiate(CNote);
+                }
+                else if (Note == "d")
+                {
+                    Instantiate(DNote);
+                }
+                else if (Note == "f")
+                {
+                    Instantiate(FNote);
+                }
+                else if (Note == "g")
+                {
+                    if (Holding.tag == "G")
+                    {
+                        Instantiate(GNote);
+                    }
+                    else
+                    {
+                        Instantiate(BigGNote);
+                    }
+                }
+                Destroy(Holding);
+                Holding = null;
+                col = false;
+            }
+        }
     }
 
     private void OnTriggerStay(Collider other)
@@ -37,29 +86,44 @@ public class collisionMusic : MonoBehaviour
 
         if(other.tag == "E")
         {
-            if (Input.anyKey)
+            if (Holding == null)
             {
-                Destroy(other.gameObject);
-                col = false;
-                Instantiate(ENote);
+                Set(other.gameObject, "e");
             }
         }
         else if(other.tag == "C")
         {
-            if (Input.anyKey)
+            if (Holding == null)
             {
-                Destroy(other.gameObject);
-                col = false;
-                Instantiate(CNote);
+                Set(other.gameObject, "c");
             }
         }
         else if(other.tag == "D")
         {
-            if (Input.anyKey)
+            if (Holding == null)
             {
-                Destroy(other.gameObject);
-                col = false;
-                Instantiate(DNote);
+                Set(other.gameObject, "d");
+            }
+        }
+        else if(other.tag == "F")
+        {
+            if (Holding == null)
+            {
+                Set(other.gameObject, "f");
+            }
+        }
+        else if(other.tag == "G")
+        {
+            if (Holding == null)
+            {
+                Set(other.gameObject, "g");
+            }
+        }
+        else if(other.tag == "BigG")
+        {
+            if (Holding == null)
+            {
+                Set(other.gameObject, "g");
             }
         }
     }
