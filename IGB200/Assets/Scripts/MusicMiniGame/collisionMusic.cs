@@ -18,11 +18,32 @@ public class collisionMusic : MonoBehaviour
 
     private GameObject Holding;
     private string Note;
+    private string key;
 
     private void Set(GameObject hold, string note)
     {
         Holding = hold;
         Note = note;
+        if(note == "e")
+        {
+            key = "3";
+        }
+        else if(note == "c")
+        {
+            key = "1";
+        }
+        else if(note == "d")
+        {
+            key = "2";
+        }
+        else if(note == "f")
+        {
+            key = "4";
+        }
+        else if(note == "g")
+        {
+            key = "5";
+        }
     }
 
     private void Start()
@@ -44,7 +65,7 @@ public class collisionMusic : MonoBehaviour
 
         if (Note != null)
         {
-            if (Input.GetKeyDown(Note) && Holding)
+            if (Input.GetKeyDown(key) && Holding)
             {
                 if (Note == "e")
                 {
