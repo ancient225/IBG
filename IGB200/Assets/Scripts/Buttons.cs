@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
+    [SerializeField] private GameObject main;
+    [SerializeField] private GameObject Info;
+    [SerializeField] private GameObject Opt;
+
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.None;
@@ -21,11 +26,21 @@ public class Buttons : MonoBehaviour
     }
     public void Options()
     {
-        SceneManager.LoadScene("Options");
+        main.SetActive(false);
+        Info.SetActive(false);
+        Opt.SetActive(true);
     }
     public void Instructions()
     {
-        SceneManager.LoadScene("Instructions");
+        main.SetActive(false);
+        Info.SetActive(true);
+        Opt.SetActive(false);
+    }
+    public void MainMenu()
+    {
+        main.SetActive(true);
+        Info.SetActive(false);
+        Opt.SetActive(false);
     }
 
     public void PlayPlatformer()

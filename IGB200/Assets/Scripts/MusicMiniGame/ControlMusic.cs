@@ -6,6 +6,7 @@ public class ControlMusic : MonoBehaviour
 {
     [SerializeField] private GameObject Music;
     [SerializeField] private GameObject End;
+    [SerializeField] private GameObject Panel;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class ControlMusic : MonoBehaviour
         if (Music.transform.childCount == 0)
         {
             End.SetActive(true);
+            Panel.SetActive(false);
         }
     }
 }

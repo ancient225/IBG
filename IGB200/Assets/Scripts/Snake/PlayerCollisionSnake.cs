@@ -10,6 +10,7 @@ public class PlayerCollisionSnake : MonoBehaviour
     [SerializeField] private GameObject Score;
     [SerializeField] private GameObject Tail;
     [SerializeField] private GameObject End;
+    [SerializeField] private GameObject Panel;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -35,5 +36,6 @@ public class PlayerCollisionSnake : MonoBehaviour
         Destroy(gameObject);
         Cursor.lockState = CursorLockMode.None;
         End.SetActive(true);
+        Panel.SetActive(false);
     }
 }

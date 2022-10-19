@@ -7,6 +7,7 @@ public class PlatformerCollision : MonoBehaviour
 {
 
     [SerializeField] private GameObject Score;
+    [SerializeField] private GameObject Panel;
     [SerializeField] private GameObject Virus;
     [SerializeField] private GameObject End;
 
@@ -32,6 +33,7 @@ public class PlatformerCollision : MonoBehaviour
             UniversalText.Points += Score.GetComponent<ScorePong>().score;
             Time.timeScale = 0.0f;
             Cursor.lockState = CursorLockMode.None;
+            Panel.SetActive(false);
             End.SetActive(true);
         }
         else if(other.tag == "Coin")

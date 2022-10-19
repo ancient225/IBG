@@ -1,2 +1,0 @@
-# Starting compiling Unity.2D.Psdimporter.Editor.dll
-D:\unity\2020.3.4f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-8439894d59deb1844b7666f9bcb44c96

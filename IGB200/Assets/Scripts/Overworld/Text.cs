@@ -24,7 +24,16 @@ public class Text : MonoBehaviour
         if (!allow)
         {
             t += Time.deltaTime;
-            if (t > 5)
+            if(UI == 90)
+            {
+                if(t > 2)
+                {
+                    t = 0;
+                    allow = true;
+                    UI = UniversalText.story;
+                }
+            }
+            else if (t > 5)
             {
                 t = 0;
                 allow = true;
