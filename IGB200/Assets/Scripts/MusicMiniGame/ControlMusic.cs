@@ -7,6 +7,7 @@ public class ControlMusic : MonoBehaviour
     [SerializeField] private GameObject Music;
     [SerializeField] private GameObject End;
     [SerializeField] private GameObject Panel;
+    [SerializeField] private GameObject Score;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class ControlMusic : MonoBehaviour
     {
         if (Music.transform.childCount == 0)
         {
+            UniversalText.Points += Score.GetComponent<ScorePong>().score;
             End.SetActive(true);
             Panel.SetActive(false);
         }

@@ -120,7 +120,7 @@ public class Collision : MonoBehaviour
             {
                 if (UniversalText.story < 1)
                 {
-                    UI = UniversalText.story + 86;
+                    UI = UniversalText.story + 87;
                 }
                 else
                 {
@@ -139,7 +139,7 @@ public class Collision : MonoBehaviour
             {
                 if (UniversalText.story < 2)
                 {
-                    UI = UniversalText.story + 87;
+                    UI = UniversalText.story + 88;
                 }
                 else
                 {
@@ -158,7 +158,7 @@ public class Collision : MonoBehaviour
             {
                 if (UniversalText.story < 3)
                 {
-                    UI = UniversalText.story + 88;
+                    UI = UniversalText.story + 89;
                 }
                 else
                 {
