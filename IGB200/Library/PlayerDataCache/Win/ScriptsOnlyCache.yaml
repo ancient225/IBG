@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - LineScript
     - LookAtPlayer
     - Movement_script
+    - Options
     - PlatformerCollision
     - PlatformerMove2D
     - PlayerCollisionSnake
@@ -20,7 +21,6 @@ ScriptsOnlyBuild:
     - ScorePong
     - Spin
     - Text
-    - TimerPong
     - collisionMusic
     - controlMainMenu
     - home
@@ -53,11 +53,17 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
     - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/IGB200.unity:
     - Class: 1
@@ -190,7 +196,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1548}
+    - Class: 114
       Script: {instanceID: 1620}
+    - Class: 114
+      Script: {instanceID: 1868}
     - Class: 114
       Script: {instanceID: 1910}
     - Class: 114
@@ -210,13 +220,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3720}
     - Class: 114
+      Script: {instanceID: 3736}
+    - Class: 114
       Script: {instanceID: 3876}
     - Class: 114
       Script: {instanceID: 4594}
     - Class: 114
+      Script: {instanceID: 4846}
+    - Class: 114
+      Script: {instanceID: 5132}
+    - Class: 114
+      Script: {instanceID: 5372}
+    - Class: 114
       Script: {instanceID: 5530}
     - Class: 114
       Script: {instanceID: 5988}
+    - Class: 114
+      Script: {instanceID: 20434}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -234,6 +254,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -363,6 +389,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4594}
     - Class: 114
       Script: {instanceID: 5898}
+    - Class: 114
+      Script: {instanceID: 6070}
     - Class: 114
       Script: {instanceID: 6656}
     - Class: 115
@@ -494,8 +522,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2460}
     - Class: 114
-      Script: {instanceID: 2828}
-    - Class: 114
       Script: {instanceID: 2946}
     - Class: 114
       Script: {instanceID: 3142}
@@ -616,8 +642,6 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -788,7 +812,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: eebeb670cf2805fab349bfe15d1220d2
+      Hash: c0e5455e1b7ff1cd4ff87c40ede1d071
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlatformerCollision
@@ -866,7 +890,7 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
-      Hash: 5d064456c40f7c34690dc0c9d079accc
+      Hash: b353c07704c75303522cef34779a2255
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PongControls
@@ -896,7 +920,7 @@ ScriptsOnlyBuild:
     className: IKManager2D
   - hash:
       serializedVersion: 2
-      Hash: 14d6a1ec6d1e75fcdcdbe1369da3ab17
+      Hash: 0bfe6c134a4384f5e6a8122262e3dbbe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ControlMusic
@@ -1154,7 +1178,7 @@ ScriptsOnlyBuild:
     className: AnimationTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 0d79d1fe0912659bd3b0c8fe1339f607
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Buttons
@@ -1352,7 +1376,7 @@ ScriptsOnlyBuild:
     className: GoTo
   - hash:
       serializedVersion: 2
-      Hash: bfdf060b2603148594c3c06838d1c1db
+      Hash: 0a3a57f1b2577ded17140c109fc9587d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScorePong
@@ -1418,10 +1442,16 @@ ScriptsOnlyBuild:
     className: collisionMusic
   - hash:
       serializedVersion: 2
-      Hash: edd1d47304c3bfd84b88a3c3de24d7af
+      Hash: 23b9104498617303fa6ae43532ba6901
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerCollisionSnake
+  - hash:
+      serializedVersion: 2
+      Hash: d835e37be8caf473a0d64dc941f2a2a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Options
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
@@ -1432,4 +1462,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Platformer.unity
   - Assets/Scenes/Music Explained.unity
   - Assets/Scenes/Music.unity
-  playerPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IBG/IGB200/Builds/v05_t01/IGB200.exe
+  playerPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IBG/IGB200/Builds/v06_t01/IGB200.exe
