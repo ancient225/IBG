@@ -9221,7 +9221,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 980730231}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9748e6e6b95ac8f419443f4fcd382f81, type: 3}
+  m_Script: {fileID: 11500000, guid: 666cd8f54e934374dafe50708e28a6ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   main: {fileID: 0}
@@ -17307,6 +17307,7 @@ MonoBehaviour:
   End: {fileID: 980730231}
   Normal: {fileID: 1635038579}
   Pause: {fileID: 2117325869}
+  pause: 0
 --- !u!54 &1913053902
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19065,6 +19066,7 @@ MonoBehaviour:
   sliderV: {fileID: 1272759789}
   Normal: {fileID: 1635038579}
   Pause: {fileID: 2117325869}
+  Player: {fileID: 1913053900}
 --- !u!114 &2117325872
 MonoBehaviour:
   m_ObjectHideFlags: 0

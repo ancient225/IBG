@@ -13,6 +13,7 @@ public class Options : MonoBehaviour
 
     [SerializeField] private GameObject Normal;
     [SerializeField] private GameObject Pause;
+    [SerializeField] private GameObject Player;
 
 
     private void Start()
@@ -66,5 +67,21 @@ public class Options : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Pause.SetActive(false);
         Normal.SetActive(true);
+        if (Player.GetComponent<PlayermoveSnake>() != null)
+        {
+            Player.GetComponent<PlayermoveSnake>().pause = !Pause;
+        }
+        else if (Player.GetComponent<PlatformerMove2D>() != null)
+        {
+            Player.GetComponent<PlatformerMove2D>().pause = !Pause;
+        }
+        else if (Player.GetComponent<ControlMusic>() != null)
+        {
+            Player.GetComponent<ControlMusic>().pause = !Pause;
+        }
+        else if (Player.GetComponent<Movement_script>() != null)
+        {
+            Player.GetComponent<Movement_script>().pause = !Pause;
+        }
     }
 }

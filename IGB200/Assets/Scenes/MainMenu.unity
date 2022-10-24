@@ -1776,8 +1776,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 06374930805b39a4692d33a50a56bcf8, type: 2}
-  slider: {fileID: 2049811903}
+  sliderS: {fileID: 0}
   sliderV: {fileID: 1045128706}
+  Normal: {fileID: 0}
+  Pause: {fileID: 0}
 --- !u!1 &828617699
 GameObject:
   m_ObjectHideFlags: 0
@@ -3876,7 +3878,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1815286112}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9748e6e6b95ac8f419443f4fcd382f81, type: 3}
+  m_Script: {fileID: 11500000, guid: 666cd8f54e934374dafe50708e28a6ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   main: {fileID: 1226675271}

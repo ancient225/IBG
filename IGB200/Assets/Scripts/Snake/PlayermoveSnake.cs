@@ -16,6 +16,12 @@ public class PlayermoveSnake : MonoBehaviour
     private int xface;
     private Vector3 face;
 
+    [SerializeField] private GameObject Pause;
+    [SerializeField] private GameObject End;
+    [SerializeField] private GameObject Normal;
+
+    [HideInInspector] public bool pause;
+
 
     // Start is called before the first frame update
     void Start()
@@ -30,63 +36,94 @@ public class PlayermoveSnake : MonoBehaviour
         }
         Direction = new Vector3(1, 0, 0);
         startMove = false;
+        pause = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxis("Horizontal") != 0 && !startMove|| Input.GetAxis("Vertical") != 0 && !startMove)
+        Buttons();
+
+        if (!pause)
         {
-            setDirection();
-            startMove = true;
-        }
-        if (startMove)
-        {
-            t += Time.deltaTime;
-            if (t > 0.3)
+
+            if (Input.GetAxis("Horizontal") != 0 && !startMove || Input.GetAxis("Vertical") != 0 && !startMove)
             {
-                t = 0;
-                move();
-
-                Tails[0] = transform.position;
-                TailDirection[0] = Direction;
-
-                
-
-                for (int i = 1; i < tails + 1; i++)
+                setDirection();
+                startMove = true;
+            }
+            if (startMove)
+            {
+                t += Time.deltaTime;
+                if (t > 0.3)
                 {
-                    Tails[i] = Tails[i - 1] - TailDirection[i - 1];
+                    t = 0;
+                    move();
+
+                    Tails[0] = transform.position;
+                    TailDirection[0] = Direction;
+
+
+
+                    for (int i = 1; i < tails + 1; i++)
+                    {
+                        Tails[i] = Tails[i - 1] - TailDirection[i - 1];
+                    }
+
+
+                    for (int i = 1; i < tails + 1; i++)
+                    {
+                        AllTails[i].transform.position = Tails[i];
+                        if (TailDirection[i].y == 1)
+                        {
+                            AllTails[i].GetComponent<wobble>().Direction = 90;
+                        }
+                        else if (TailDirection[i].y == -1)
+                        {
+                            AllTails[i].GetComponent<wobble>().Direction = 270;
+                        }
+                        else if (TailDirection[i].x == 1)
+                        {
+                            AllTails[i].GetComponent<wobble>().Direction = 5;
+                        }
+                        else if (TailDirection[i].x == -1)
+                        {
+                            AllTails[i].GetComponent<wobble>().Direction = 180;
+                        }
+                    }
+
+                    for (int i = tails + 1; i > 0; i--)
+                    {
+                        TailDirection[i] = TailDirection[i - 1];
+                    }
                 }
 
-
-                for (int i = 1; i < tails + 1; i++)
-                {
-                    AllTails[i].transform.position = Tails[i];
-                    if (TailDirection[i].y == 1)
-                    {
-                        AllTails[i].GetComponent<wobble>().Direction = 90;
-                    }
-                    else if(TailDirection[i].y == -1)
-                    {
-                        AllTails[i].GetComponent<wobble>().Direction = 270;
-                    }
-                    else if(TailDirection[i].x == 1)
-                    {
-                        AllTails[i].GetComponent<wobble>().Direction = 5;
-                    }
-                    else if(TailDirection[i].x == -1)
-                    {
-                        AllTails[i].GetComponent<wobble>().Direction = 180;
-                    }
-                }
-
-                for (int i = tails + 1; i > 0; i--)
-                {
-                    TailDirection[i] = TailDirection[i - 1];
-                }
+                ChangeDirection();
             }
 
-            ChangeDirection();
+
+        }
+    }
+
+    void Buttons()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && End.activeInHierarchy != true)
+        {
+            if (pause)
+            {
+                Time.timeScale = 1.0f;
+                Cursor.lockState = CursorLockMode.Locked;
+                Pause.SetActive(false);
+                Normal.SetActive(true);
+            }
+            else
+            {
+                Time.timeScale = 0.0f;
+                Cursor.lockState = CursorLockMode.None;
+                Pause.SetActive(true);
+                Normal.SetActive(false);
+            }
+            pause = !pause;
         }
     }
 

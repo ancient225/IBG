@@ -58,7 +58,7 @@ public class Buttons : MonoBehaviour
         Time.timeScale = 1.0f;
         SceneManager.LoadScene("Music");
     }
-    
+
     public void PlayMusic2()
     {
         Time.timeScale = 1.0f;

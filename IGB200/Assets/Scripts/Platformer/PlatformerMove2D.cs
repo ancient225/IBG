@@ -19,7 +19,7 @@ public class PlatformerMove2D : MonoBehaviour
     [SerializeField] private GameObject Normal;
     [SerializeField] private GameObject Pause;
 
-    private bool pause;
+    [HideInInspector] public bool pause;
 
     // Start is called before the first frame update
     void Start()
