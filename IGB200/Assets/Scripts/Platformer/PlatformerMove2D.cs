@@ -15,22 +15,56 @@ public class PlatformerMove2D : MonoBehaviour
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
 
+    [SerializeField] private GameObject End;
+    [SerializeField] private GameObject Normal;
+    [SerializeField] private GameObject Pause;
+
+    [HideInInspector] public bool pause;
+
     // Start is called before the first frame update
     void Start()
     {
         t = 0;
         Bounce = false;
         RB = GetComponent<Rigidbody>();
+        pause = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 move = Movement();
+        Buttons();
 
-        Vector3 jump = Jump();
+        if (!pause)
+        {
+            Vector3 move = Movement();
 
-        PlayerMove(move, jump);
+            Vector3 jump = Jump();
+
+            PlayerMove(move, jump);
+        }
+    }
+
+    void Buttons()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && End.activeInHierarchy != true)
+        {
+            if (pause)
+            {
+                Time.timeScale = 1.0f;
+                Cursor.lockState = CursorLockMode.Locked;
+                Pause.SetActive(false);
+                Normal.SetActive(true);
+            }
+            else
+            {
+                Time.timeScale = 0.0f;
+                Cursor.lockState = CursorLockMode.None;
+                Pause.SetActive(true);
+                Normal.SetActive(false);
+            }
+            pause = !pause;
+        }
     }
 
     Vector3 Movement()

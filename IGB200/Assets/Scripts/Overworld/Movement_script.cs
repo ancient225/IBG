@@ -9,6 +9,11 @@ public class Movement_script : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private int jumpHeight;
 
+    [SerializeField] private GameObject Normal;
+    [SerializeField] private GameObject Pause;
+
+    [HideInInspector] public bool pause;
+
     private float t;
 
     [SerializeField] Transform groundCheck;
@@ -19,16 +24,44 @@ public class Movement_script : MonoBehaviour
     {
         t = 0;
         RB = GetComponent<Rigidbody>();
+        pause = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 move = Movement();
+        Buttons();
 
-        Vector3 jump = Jump();
+        if (!pause)
+        {
+            Vector3 move = Movement();
 
-        PlayerMove(move, jump);
+            Vector3 jump = Jump();
+
+            PlayerMove(move, jump);
+        }
+    }
+
+    void Buttons()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (pause)
+            {
+                Time.timeScale = 1.0f;
+                Cursor.lockState = CursorLockMode.Locked;
+                Pause.SetActive(false);
+                Normal.SetActive(true);
+            }
+            else
+            {
+                Time.timeScale = 0.0f;
+                Cursor.lockState = CursorLockMode.None;
+                Pause.SetActive(true);
+                Normal.SetActive(false);
+            }
+            pause = !pause;
+        }
     }
 
     void PlayerMove(Vector3 move, Vector3 jump)

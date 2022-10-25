@@ -12,9 +12,15 @@ public class PlayerView : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        if(UniversalText.sensitivity == 0)
+        {
+            UniversalText.sensitivity = 100;
+        }
     }
     void Update()
     {
+        sensitivity = UniversalText.sensitivity;
+
         mouseDirection.x += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
         mouseDirection.y = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
 
