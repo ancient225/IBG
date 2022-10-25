@@ -68,7 +68,11 @@ public class Collision : MonoBehaviour
             {
                 if (UniversalText.story < 2)
                 {
+<<<<<<< Updated upstream
                     UI = UniversalText.story + 86;
+=======
+                    UI = UniversalText.story + 87;
+>>>>>>> Stashed changes
                 }
                 else
                 {
@@ -87,7 +91,11 @@ public class Collision : MonoBehaviour
             {
                 if (UniversalText.story < 3)
                 {
+<<<<<<< Updated upstream
                     UI = UniversalText.story + 86;
+=======
+                    UI = UniversalText.story + 88;
+>>>>>>> Stashed changes
                 }
                 else
                 {

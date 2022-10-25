@@ -47,11 +47,24 @@ public class PlayermoveSnake : MonoBehaviour
             {
                 t = 0;
                 move();
+<<<<<<< Updated upstream
 
                 Tails[0] = transform.position;
                 TailDirection[0] = Direction;
 
                 
+=======
+
+                Tails[0] = transform.position;
+                TailDirection[0] = Direction;
+
+                
+
+                for (int i = 1; i < tails + 1; i++)
+                {
+                    Tails[i] = Tails[i - 1] - TailDirection[i - 1];
+                }
+>>>>>>> Stashed changes
 
                 for (int i = 1; i < tails + 1; i++)
                 {
@@ -63,6 +76,7 @@ public class PlayermoveSnake : MonoBehaviour
                     AllTails[i].transform.position = Tails[i];
                     if (TailDirection[i].y == 1)
                     {
+<<<<<<< Updated upstream
                         AllTails[i].transform.eulerAngles = new Vector3(0, 0, 90);
                     }
                     else if(TailDirection[i].y == -1)
@@ -76,6 +90,21 @@ public class PlayermoveSnake : MonoBehaviour
                     else if(TailDirection[i].x == -1)
                     {
                         AllTails[i].transform.eulerAngles = new Vector3(0, 0, 180);
+=======
+                        AllTails[i].GetComponent<wobble>().Direction = 90;
+                    }
+                    else if(TailDirection[i].y == -1)
+                    {
+                        AllTails[i].GetComponent<wobble>().Direction = 270;
+                    }
+                    else if(TailDirection[i].x == 1)
+                    {
+                        AllTails[i].GetComponent<wobble>().Direction = 5;
+                    }
+                    else if(TailDirection[i].x == -1)
+                    {
+                        AllTails[i].GetComponent<wobble>().Direction = 180;
+>>>>>>> Stashed changes
                     }
                 }
 

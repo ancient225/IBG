@@ -25,11 +25,14 @@ public class Buttons : MonoBehaviour
     public void Instructions()
     {
         SceneManager.LoadScene("Instructions");
+<<<<<<< Updated upstream
     }
 
     public void PlayPong()
     {
         SceneManager.LoadScene("Pong");
+=======
+>>>>>>> Stashed changes
     }
     public void PlayPlatformer()
     {
@@ -39,4 +42,12 @@ public class Buttons : MonoBehaviour
     {
         SceneManager.LoadScene("Snake");
     }
+<<<<<<< Updated upstream
+=======
+    public void PlayMusic()
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene("Music");
+    }
+>>>>>>> Stashed changes
 }

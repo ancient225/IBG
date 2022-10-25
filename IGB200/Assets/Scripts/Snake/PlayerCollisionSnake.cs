@@ -8,6 +8,10 @@ public class PlayerCollisionSnake : MonoBehaviour
 
     [SerializeField] private GameObject AppleSpawner;
     [SerializeField] private GameObject Tail;
+<<<<<<< Updated upstream
+=======
+    [SerializeField] private GameObject End;
+>>>>>>> Stashed changes
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,5 +27,11 @@ public class PlayerCollisionSnake : MonoBehaviour
         {
             SceneManager.LoadScene("IGB200");
         }
+<<<<<<< Updated upstream
+=======
+        Destroy(gameObject);
+        Cursor.lockState = CursorLockMode.None;
+        End.SetActive(true);
+>>>>>>> Stashed changes
     }
 }

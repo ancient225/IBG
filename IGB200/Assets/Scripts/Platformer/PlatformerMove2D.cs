@@ -9,6 +9,7 @@ public class PlatformerMove2D : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private int jumpHeight;
     [HideInInspector] public bool Bounce;
+    [SerializeField] public AudioSource jumpsfx;
 
     private float t;
 
@@ -47,6 +48,7 @@ public class PlatformerMove2D : MonoBehaviour
         //jump
         if (Input.GetButtonDown("Jump") && Physics.CheckSphere(groundCheck.position, 1, groundLayer) || Input.GetKeyDown("w") && Physics.CheckSphere(groundCheck.position, 1, groundLayer))
         {
+            jumpsfx.Play();
             t = 0;
             return new Vector3(0, jumpHeight, 0);
         }
