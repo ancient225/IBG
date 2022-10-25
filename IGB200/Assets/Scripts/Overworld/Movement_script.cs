@@ -12,7 +12,7 @@ public class Movement_script : MonoBehaviour
     [SerializeField] private GameObject Normal;
     [SerializeField] private GameObject Pause;
 
-    private bool pause;
+    [HideInInspector] public bool pause;
 
     private float t;
 
@@ -30,13 +30,16 @@ public class Movement_script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 move = Movement();
-
-        Vector3 jump = Jump();
-        
         Buttons();
 
-        PlayerMove(move, jump);
+        if (!pause)
+        {
+            Vector3 move = Movement();
+
+            Vector3 jump = Jump();
+
+            PlayerMove(move, jump);
+        }
     }
 
     void Buttons()
@@ -49,8 +52,6 @@ public class Movement_script : MonoBehaviour
                 Cursor.lockState = CursorLockMode.Locked;
                 Pause.SetActive(false);
                 Normal.SetActive(true);
-                gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
-                gameObject.GetComponent<Rigidbody>().useGravity = false;
             }
             else
             {
@@ -58,8 +59,6 @@ public class Movement_script : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 Pause.SetActive(true);
                 Normal.SetActive(false);
-                gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
-                gameObject.GetComponent<Rigidbody>().useGravity = false;
             }
             pause = !pause;
         }
