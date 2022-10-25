@@ -26,7 +26,19 @@ MonoBehaviour:
   m_MinSize: {x: 932, y: 442}
   m_MaxSize: {x: 22002, y: 10000}
   vertical: 0
+<<<<<<< HEAD
   controlID: 123
+=======
+<<<<<<< Updated upstream
+  controlID: 8931
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+  controlID: 623
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -48,9 +60,32 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    y: 671
+    width: 995.6667
+    height: 253
+=======
+>>>>>>> Vinnie
     y: 435.2
     width: 647
     height: 340.4
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+=======
+    y: 435.2
+    width: 782.2
+=======
+    y: 380.6
+    width: 779
+>>>>>>> Stashed changes
+    height: 340.4
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -58,7 +93,19 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 1920, y: 1080}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  m_TargetSize: {x: 995.6667, y: 232}
+=======
+  m_TargetSize: {x: 1920, y: 1080}
+>>>>>>> Stashed changes
+=======
+  m_TargetSize: {x: 1920, y: 1080}
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -73,10 +120,29 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    m_HBaseRangeMin: -331.88892
+    m_HBaseRangeMax: 331.88892
+    m_VBaseRangeMin: -77.333336
+    m_VBaseRangeMax: 77.333336
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     m_HBaseRangeMin: -768
     m_HBaseRangeMax: 768
     m_VBaseRangeMin: -432
     m_VBaseRangeMax: 432
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -85,7 +151,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -94,23 +160,88 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 647
       height: 319.4
     m_Scale: {x: 0.3696759, y: 0.3696759}
     m_Translation: {x: 323.5, y: 159.7}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      width: 995.6667
+      height: 232
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 497.83334, y: 116}
+=======
+=======
+>>>>>>> Stashed changes
+      width: 782.2
+      height: 319.4
+    m_Scale: {x: 0.3696759, y: 0.3696759}
+    m_Translation: {x: 391.1, y: 159.7}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+      width: 779
+      height: 319.4
+    m_Scale: {x: 0.3696759, y: 0.3696759}
+    m_Translation: {x: 389.5, y: 159.7}
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -875.0908
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      x: -497.83334
+      y: -116
+      width: 995.6667
+      height: 232
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1493.5, y: 379.5}
+=======
+      x: -1057.9537
+>>>>>>> Vinnie
       y: -432.00003
       width: 1750.1816
       height: 864.00006
     m_MinimalGUI: 1
   m_defaultScale: 0.3696759
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 808.75, y: 425.5}
+=======
+  m_LastWindowPixelSize: {x: 977.75, y: 425.5}
+>>>>>>> Stashed changes
+=======
+      x: -1057.9537
+      y: -432.00003
+      width: 2115.9075
+      height: 864.00006
+    m_MinimalGUI: 1
+  m_defaultScale: 0.3696759
+  m_LastWindowPixelSize: {x: 977.75, y: 425.5}
+>>>>>>> Stashed changes
+=======
+      x: -1053.6256
+      y: -432.00003
+      width: 2107.2512
+      height: 864.00006
+    m_MinimalGUI: 1
+  m_defaultScale: 0.3696759
+  m_LastWindowPixelSize: {x: 973.75, y: 425.5}
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -135,12 +266,43 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 648
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    width: 996.6667
+    height: 926
+  m_MinSize: {x: 201, y: 442}
+  m_MaxSize: {x: 4001, y: 8042}
+  vertical: 1
+  controlID: 11435
+=======
+=======
+>>>>>>> Stashed changes
+    width: 783.2
+=======
+    width: 780
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     height: 723
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 81
+=======
+<<<<<<< Updated upstream
+  controlID: 8932
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+  controlID: 624
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,8 +320,27 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 648
     height: 361.6
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    width: 996.6667
+    height: 651.3333
+=======
+    width: 783.2
+    height: 361.6
+>>>>>>> Stashed changes
+=======
+    width: 783.2
+=======
+    width: 780
+>>>>>>> Stashed changes
+    height: 361.6
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 5}
@@ -189,8 +370,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
+<<<<<<< HEAD
     width: 647
     height: 340.6
+=======
+<<<<<<< Updated upstream
+    width: 782.2
+=======
+    width: 779
+>>>>>>> Stashed changes
+    height: 340.6
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: fbe1c8847d001954f9f6b68f42fa1f23
@@ -203,9 +397,33 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 953.8702, y: 454.6284, z: -315.69443}
     speed: 2
     m_Value: {x: 953.8702, y: 454.6284, z: -315.69443}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    m_Target: {x: 134.55013, y: -27.513412, z: 135.99625}
+    speed: 2
+    m_Value: {x: 134.55013, y: -27.513412, z: 135.99625}
+=======
+    m_Target: {x: 565.7737, y: 224.27184, z: 17.071533}
+    speed: 2
+    m_Value: {x: 565.7737, y: 224.27184, z: 17.071533}
+>>>>>>> Stashed changes
+=======
+    m_Target: {x: 565.7737, y: 224.27184, z: 17.071533}
+    speed: 2
+    m_Value: {x: 565.7737, y: 224.27184, z: 17.071533}
+>>>>>>> Stashed changes
+=======
+    m_Target: {x: 1104.472, y: 694.8297, z: 204.4281}
+    speed: 2
+    m_Value: {x: 1104.472, y: 694.8297, z: 204.4281}
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -252,13 +470,49 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.047975373, y: 0.026677739, z: -0.0012738112, w: 0.998514}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    m_Target: {x: -0.25721425, y: -0.32585514, z: 0.09260464, w: -0.9050463}
+>>>>>>> Vinnie
     speed: 2
     m_Value: {x: 0.047974292, y: 0.026677137, z: -0.0012737825, w: 0.9984915}
   m_Size:
     m_Target: 394.86606
     speed: 2
+<<<<<<< HEAD
     m_Value: 394.86606
+=======
+    m_Value: 151.09375
+=======
+    m_Target: {x: 0.09294212, y: -0.26634267, z: 0.025813853, w: 0.959048}
+    speed: 2
+=======
+    m_Target: {x: 0.09294212, y: -0.26634267, z: 0.025813853, w: 0.959048}
+    speed: 2
+>>>>>>> Stashed changes
+    m_Value: {x: 0.09294137, y: -0.26634055, z: 0.025813647, w: 0.9590403}
+  m_Size:
+    m_Target: 1122.8007
+    speed: 2
+    m_Value: 1122.8007
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+    m_Target: {x: -0.11584853, y: 0.09877045, z: 0.01158632, w: 0.9882844}
+    speed: 2
+    m_Value: {x: -0.11584756, y: 0.09876962, z: 0.011586223, w: 0.9882762}
+  m_Size:
+    m_Target: 815.8873
+    speed: 2
+    m_Value: 815.8873
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -299,9 +553,31 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    y: 651.3333
+    width: 996.6667
+    height: 274.6667
+=======
+>>>>>>> Vinnie
     y: 361.6
     width: 648
     height: 361.4
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+=======
+    y: 361.6
+<<<<<<< Updated upstream
+    width: 783.2
+=======
+    width: 780
+>>>>>>> Stashed changes
+    height: 361.4
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 2}
@@ -332,9 +608,32 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 435.2
     width: 446.2
     height: 340.4
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    y: 724
+    width: 995.6667
+    height: 253.66669
+=======
+    y: 435.2
+<<<<<<< Updated upstream
+    width: 818
+    height: 340
+>>>>>>> Stashed changes
+=======
+    y: 435.2
+    width: 818
+    height: 340
+>>>>>>> Stashed changes
+=======
+    width: 779
+    height: 340.4
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &8
 MonoBehaviour:
@@ -524,13 +823,42 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 648
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    x: 996.6667
     y: 0
+    width: 202
+    height: 926
+=======
+    x: 783.2
+>>>>>>> Vinnie
+    y: 0
+=======
+    x: 783.2
+    y: 0
+>>>>>>> Stashed changes
     width: 201.6
     height: 723
+<<<<<<< HEAD
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 10}
+=======
+>>>>>>> Stashed changes
+=======
+    x: 780
+    y: 0
+    width: 204
+    height: 723
+>>>>>>> Stashed changes
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 9}
+>>>>>>> Vinnie
   m_Panes:
   - {fileID: 10}
   m_Selected: 0
@@ -555,9 +883,26 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 648
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    x: 996.6667
+    y: 72.66667
+    width: 200
+    height: 905
+=======
+=======
+>>>>>>> Stashed changes
+    x: 783.2
+=======
+    x: 780
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     y: 73.6
-    width: 199.6
+    width: 202
     height: 702
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -565,7 +910,23 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: eceeffff80f2ffff1cf6ffff98f9ffff44fbffff444f0000484f0000
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      m_ExpandedIDs: 52fbfffffc440000044500002c460000ba460000c2460000ea460000ee460000fe460000
+=======
+      m_ExpandedIDs: 74b5ffff26bdffffa8ceffffc6d0ffff16ddffffc6e7ffff54efffff46fbffffa4680000b8680000ba750000ca750000f6760000067700002a780000e27e00001c850000b885000074860000a68600005e87000088870000
+>>>>>>> Stashed changes
+=======
+      m_ExpandedIDs: 74b5ffff26bdffffa8ceffffc6d0ffff16ddffffc6e7ffff54efffff46fbffffa4680000b8680000ba750000ca750000f6760000067700002a780000e27e00001c850000b885000074860000a68600005e87000088870000
+>>>>>>> Stashed changes
+=======
+      m_ExpandedIDs: 46fbffff
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -588,8 +949,17 @@ MonoBehaviour:
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
+<<<<<<< HEAD
   m_WindowGUID: 8faed8a31dfdb1041a3caa130e59532b
 --- !u!114 &11
+=======
+<<<<<<< Updated upstream
+  m_WindowGUID: 389fb4517084fb84fa85c088070456c8
+=======
+  m_WindowGUID: 8faed8a31dfdb1041a3caa130e59532b
+>>>>>>> Stashed changes
+--- !u!114 &10
+>>>>>>> Vinnie
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -604,13 +974,43 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 849.6
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    x: 1198.6666
+>>>>>>> Vinnie
     y: 0
     width: 232
     height: 723
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
+<<<<<<< HEAD
   m_ActualView: {fileID: 12}
+=======
+=======
+    x: 984.8
+    y: 0
+=======
+    x: 984.8
+    y: 0
+>>>>>>> Stashed changes
+=======
+    x: 984
+    y: 0
+>>>>>>> Stashed changes
+    width: 271.2
+    height: 723
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+  m_ActualView: {fileID: 11}
+>>>>>>> Vinnie
   m_Panes:
   - {fileID: 12}
   m_Selected: 0
@@ -635,7 +1035,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 849.60004
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    x: 1198.6667
+    y: 72.66667
+    width: 230
+    height: 905
+=======
+=======
+>>>>>>> Stashed changes
+    x: 984.8
+=======
+    x: 984
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     y: 73.6
     width: 230
     height: 702
@@ -653,22 +1070,86 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    - Assets/art made/Models/dist/fbx
+=======
+    - Assets/Scripts/Overworld
+>>>>>>> Stashed changes
+=======
+    - Assets/Scripts/Overworld
+>>>>>>> Stashed changes
+=======
+    - Assets/Scripts
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - Assets/art made/Models/dist/fbx
+>>>>>>> Vinnie
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\timot\OneDrive\Desktop\Uni stuff\2022\Sem2\200\IBG\IBG\IGB200
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 184e0000
     m_LastClickedID: 19992
     m_ExpandedIDs: 00000000d44d0000d64d0000d84d0000da4d0000dc4d0000de4d0000e04d0000e24d0000e44d0000e64d0000e84d0000ea4d0000ec4d0000ee4d0000f04d0000f24d0000f44d0000f64d0000f84d0000fa4d0000fc4d0000fe4d0000004e0000024e0000
+=======
+    m_SelectedIDs: bc4e0000
+    m_LastClickedID: 20156
+    m_ExpandedIDs: 00000000bc4c0000be4c0000c04c0000c24c0000c44c0000c64c0000c84c0000ca4c0000d44c0000e44c00008a4d000000ca9a3b
+=======
+  - Assets/Scripts/Overworld
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Vincent\OneDrive\Documents\igb200_Tim\IBG\IGB200
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+=======
+  - Assets/Scripts/Overworld
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Vincent\OneDrive\Documents\igb200_Tim\IBG\IGB200
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+>>>>>>> Stashed changes
+    scrollPos: {x: 0, y: 362}
+    m_SelectedIDs: 505e0000
+    m_LastClickedID: 24144
+    m_ExpandedIDs: 00000000b45d0000b65d0000b85d0000ba5d0000bc5d0000be5d0000c05d0000c25d0000c45d0000c65d0000c85d0000ca5d0000cc5d0000ce5d0000d05d0000d25d0000d45d0000d65d0000d85d0000da5d0000dc5d0000de5d0000e05d0000e25d0000e45d000000ca9a3b
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+  - Assets/Scripts
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Vincent\OneDrive\Documents\igb200_Tim\IBG\IGB200
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 458}
+    m_SelectedIDs: e65d0000
+    m_LastClickedID: 24038
+    m_ExpandedIDs: 00000000be5d0000c05d0000c25d0000c45d0000c65d0000c85d0000ca5d0000cc5d0000ce5d0000d05d0000d25d0000d45d0000d65d0000d85d0000da5d0000dc5d0000de5d0000e05d0000e25d0000e45d0000e65d0000e85d0000ea5d0000ec5d0000ee5d0000f05d0000f25d000000ca9a3b
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -696,7 +1177,23 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000d44d0000d64d0000d84d0000da4d0000dc4d0000de4d0000e04d0000e24d0000e44d0000e64d0000e84d0000ea4d0000ec4d0000ee4d0000f04d0000f24d0000f44d0000f64d0000f84d0000fa4d0000fc4d0000fe4d0000004e0000024e0000
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    m_ExpandedIDs: 00000000bc4c0000be4c0000c04c0000c24c0000c44c0000c64c0000c84c0000ca4c0000d44c0000e44c00008a4d000000ca9a3b
+=======
+    m_ExpandedIDs: 00000000b45d0000b65d0000b85d0000ba5d0000bc5d0000be5d0000c05d0000c25d0000c45d0000c65d0000c85d0000ca5d0000cc5d0000ce5d0000d05d0000d25d0000d45d0000d65d0000d85d0000da5d0000dc5d0000de5d0000e05d0000e25d0000e45d000000ca9a3b
+>>>>>>> Stashed changes
+=======
+    m_ExpandedIDs: 00000000b45d0000b65d0000b85d0000ba5d0000bc5d0000be5d0000c05d0000c25d0000c45d0000c65d0000c85d0000ca5d0000cc5d0000ce5d0000d05d0000d25d0000d45d0000d65d0000d85d0000da5d0000dc5d0000de5d0000e05d0000e25d0000e45d000000ca9a3b
+>>>>>>> Stashed changes
+=======
+    m_ExpandedIDs: 00000000be5d0000c05d0000c25d0000c45d0000c65d0000c85d0000ca5d0000cc5d0000ce5d0000d05d0000d25d0000d45d0000d65d0000d85d0000da5d0000dc5d0000de5d0000e05d0000e25d0000e45d0000e65d0000e85d0000ea5d0000ec5d0000ee5d0000f05d0000f25d000000ca9a3b
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -721,10 +1218,37 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 444f0000
     m_LastClickedInstanceID: 20292
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 44570000b89b0000e2550000be4a000000000000004c0000b64a0000e2b8010052e4ffff
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    m_SelectedInstanceIDs: de83ffff
+    m_LastClickedInstanceID: -31778
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: e03f00005e5f000054520000005000003453000000000000
+=======
+=======
+>>>>>>> Stashed changes
+    m_SelectedInstanceIDs: 56860000
+    m_LastClickedInstanceID: 34390
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: 4457000000000000b89b0000e2550000
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+    m_SelectedInstanceIDs: f2070000
+    m_LastClickedInstanceID: 2034
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 4457000000000000b89b0000e2550000
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -748,11 +1272,40 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
+<<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 947}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
 --- !u!114 &13
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    m_ScrollPosition: {x: 0, y: 240}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 101.33333
+=======
+    m_ScrollPosition: {x: 0, y: 668}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 149
+>>>>>>> Stashed changes
+=======
+    m_ScrollPosition: {x: 0, y: 668}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 149
+>>>>>>> Stashed changes
+=======
+    m_ScrollPosition: {x: 0, y: 203}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 146.79999
+>>>>>>> Stashed changes
+--- !u!114 &12
+>>>>>>> Vinnie
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -767,6 +1320,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1081.6
     y: 0
     width: 454.40002
@@ -774,6 +1328,34 @@ MonoBehaviour:
   m_MinSize: {x: 301, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    x: 1430.6666
+    y: 0
+    width: 276.00012
+    height: 926
+=======
+=======
+>>>>>>> Stashed changes
+    x: 1256
+    y: 0
+    width: 280
+    height: 723
+>>>>>>> Stashed changes
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+=======
+    x: 1255.2
+    y: 0
+    width: 280.80005
+    height: 723
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> Stashed changes
+  m_ActualView: {fileID: 13}
+>>>>>>> Vinnie
   m_Panes:
   - {fileID: 14}
   - {fileID: 15}
@@ -799,9 +1381,30 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1081.6
     y: 73.6
     width: 453.40002
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    x: 1430.6667
+    y: 72.66667
+    width: 275.00012
+    height: 905
+=======
+=======
+>>>>>>> Stashed changes
+    x: 1256
+    y: 73.6
+    width: 279
+=======
+    x: 1255.2001
+    y: 73.6
+    width: 279.80005
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     height: 702
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -810,7 +1413,23 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: 20292
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  m_LastInspectedObjectInstanceID: -31778
+=======
+  m_LastInspectedObjectInstanceID: 34390
+>>>>>>> Stashed changes
+=======
+  m_LastInspectedObjectInstanceID: 34390
+>>>>>>> Stashed changes
+=======
+  m_LastInspectedObjectInstanceID: 2034
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:

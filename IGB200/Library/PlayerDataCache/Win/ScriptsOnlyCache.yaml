@@ -18,12 +18,12 @@ ScriptsOnlyBuild:
     - PlayerCollisionSnake
     - PlayerView
     - PlayermoveSnake
-    - PongControls
     - ScorePong
     - Spin
     - Text
     - collisionMusic
     - controlMainMenu
+<<<<<<< HEAD
     - home
     - killMusic
     - moveMusic
@@ -37,6 +37,13 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
+=======
+<<<<<<< Updated upstream
+=======
+    - moveWhiteCell
+    - wobble
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -106,7 +113,12 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1620}
+=======
+<<<<<<< Updated upstream
+      Script: {instanceID: 1504}
+>>>>>>> Vinnie
     - Class: 114
       Script: {instanceID: 1868}
     - Class: 114
@@ -132,6 +144,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3086}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 3144}
     - Class: 114
       Script: {instanceID: 3200}
@@ -155,6 +168,38 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6066}
     - Class: 114
       Script: {instanceID: 6466}
+=======
+      Script: {instanceID: 3654}
+=======
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1840}
+    - Class: 114
+      Script: {instanceID: 1860}
+    - Class: 114
+      Script: {instanceID: 2016}
+    - Class: 114
+      Script: {instanceID: 2194}
+    - Class: 114
+      Script: {instanceID: 2198}
+    - Class: 114
+      Script: {instanceID: 2364}
+    - Class: 114
+      Script: {instanceID: 2544}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2720}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3100}
+    - Class: 114
+      Script: {instanceID: 3936}
+    - Class: 114
+      Script: {instanceID: 4204}
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -177,16 +222,25 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+<<<<<<< HEAD
     - Class: 241
       Script: {instanceID: 0}
     - Class: 243
       Script: {instanceID: 0}
     - Class: 245
       Script: {instanceID: 0}
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Vinnie
     - Class: 258
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     Assets/Scenes/MainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -211,7 +265,12 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1548}
+=======
+<<<<<<< Updated upstream
+      Script: {instanceID: 1504}
+>>>>>>> Vinnie
     - Class: 114
       Script: {instanceID: 1620}
     - Class: 114
@@ -654,6 +713,36 @@ ScriptsOnlyBuild:
     - Class: 128
       Script: {instanceID: 0}
     - Class: 136
+=======
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1840}
+    - Class: 114
+      Script: {instanceID: 1972}
+    - Class: 114
+      Script: {instanceID: 2186}
+    - Class: 114
+      Script: {instanceID: 2198}
+    - Class: 114
+      Script: {instanceID: 2544}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3100}
+    - Class: 114
+      Script: {instanceID: 3214}
+    - Class: 114
+      Script: {instanceID: 3736}
+    - Class: 114
+      Script: {instanceID: 4420}
+    - Class: 114
+      Script: {instanceID: 4730}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+>>>>>>> Stashed changes
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -675,8 +764,194 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
+<<<<<<< HEAD
+    - Class: 850595691
+=======
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+<<<<<<< Updated upstream
+      Script: {instanceID: 1504}
+    - Class: 114
+      Script: {instanceID: 1740}
+    - Class: 114
+      Script: {instanceID: 2036}
+    - Class: 114
+      Script: {instanceID: 2332}
+    - Class: 114
+      Script: {instanceID: 2444}
+    - Class: 114
+      Script: {instanceID: 2486}
+    - Class: 114
+      Script: {instanceID: 2612}
+    - Class: 114
+      Script: {instanceID: 2796}
+    - Class: 114
+      Script: {instanceID: 2882}
+    - Class: 114
+      Script: {instanceID: 3288}
+=======
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1840}
+    - Class: 114
+      Script: {instanceID: 2198}
+    - Class: 114
+      Script: {instanceID: 2544}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2720}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3100}
+    - Class: 114
+      Script: {instanceID: 3214}
+    - Class: 114
+      Script: {instanceID: 3736}
+>>>>>>> Stashed changes
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Pong.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+<<<<<<< Updated upstream
+      Script: {instanceID: 1504}
+    - Class: 114
+      Script: {instanceID: 1740}
+    - Class: 114
+      Script: {instanceID: 2148}
+    - Class: 114
+      Script: {instanceID: 2260}
+    - Class: 114
+      Script: {instanceID: 2332}
+    - Class: 114
+      Script: {instanceID: 2444}
+    - Class: 114
+      Script: {instanceID: 2486}
+    - Class: 114
+      Script: {instanceID: 2612}
+    - Class: 114
+      Script: {instanceID: 2796}
+    - Class: 114
+      Script: {instanceID: 4132}
+    - Class: 114
+      Script: {instanceID: 4270}
+    - Class: 114
+      Script: {instanceID: 4384}
+=======
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1790}
+    - Class: 114
+      Script: {instanceID: 1840}
+    - Class: 114
+      Script: {instanceID: 2080}
+    - Class: 114
+      Script: {instanceID: 2112}
+    - Class: 114
+      Script: {instanceID: 2198}
+    - Class: 114
+      Script: {instanceID: 2462}
+    - Class: 114
+      Script: {instanceID: 2544}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2720}
+    - Class: 114
+      Script: {instanceID: 2766}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3100}
+    - Class: 114
+      Script: {instanceID: 3214}
+    - Class: 114
+      Script: {instanceID: 3736}
+    - Class: 114
+      Script: {instanceID: 4782}
+>>>>>>> Stashed changes
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+>>>>>>> Vinnie
+      Script: {instanceID: 0}
+<<<<<<< Updated upstream
+=======
+    - Class: 258
+      Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
+>>>>>>> Stashed changes
     Assets/Scenes/Snake Explained.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -699,7 +974,12 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1620}
+=======
+<<<<<<< Updated upstream
+      Script: {instanceID: 1504}
+>>>>>>> Vinnie
     - Class: 114
       Script: {instanceID: 1994}
     - Class: 114
@@ -717,7 +997,32 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3878}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 4596}
+=======
+      Script: {instanceID: 3288}
+=======
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1840}
+    - Class: 114
+      Script: {instanceID: 2198}
+    - Class: 114
+      Script: {instanceID: 2544}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2720}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3100}
+    - Class: 114
+      Script: {instanceID: 3214}
+    - Class: 114
+      Script: {instanceID: 3736}
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -770,10 +1075,16 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1620}
+=======
+<<<<<<< Updated upstream
+      Script: {instanceID: 1622}
+>>>>>>> Vinnie
     - Class: 114
       Script: {instanceID: 1814}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1994}
     - Class: 114
       Script: {instanceID: 2460}
@@ -799,6 +1110,40 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6072}
     - Class: 114
       Script: {instanceID: 6692}
+=======
+      Script: {instanceID: 4510}
+=======
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1708}
+    - Class: 114
+      Script: {instanceID: 1840}
+    - Class: 114
+      Script: {instanceID: 2198}
+    - Class: 114
+      Script: {instanceID: 2544}
+    - Class: 114
+      Script: {instanceID: 2674}
+    - Class: 114
+      Script: {instanceID: 2720}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3100}
+    - Class: 114
+      Script: {instanceID: 3214}
+    - Class: 114
+      Script: {instanceID: 3736}
+    - Class: 114
+      Script: {instanceID: 4342}
+    - Class: 114
+      Script: {instanceID: 4614}
+    - Class: 114
+      Script: {instanceID: 4782}
+    - Class: 114
+      Script: {instanceID: 5238}
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -809,8 +1154,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+<<<<<<< HEAD
     - Class: 212
       Script: {instanceID: 0}
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Vinnie
     - Class: 213
       Script: {instanceID: 0}
     - Class: 222
@@ -823,6 +1173,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
   scriptHashData:
   - hash:
       serializedVersion: 2
@@ -856,12 +1210,18 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Vinnie
       Hash: 9c7c87712e298256d276eb96e02a57b1
     assemblyName: Unity.ProBuilder.dll
     namespaceName: UnityEngine.ProBuilder
     className: PreferenceDictionary
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: 71b711096c6c32621c1d4c02310898b7
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
@@ -880,6 +1240,9 @@ ScriptsOnlyBuild:
     className: IKEditorManagerHelper
   - hash:
       serializedVersion: 2
+=======
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -928,7 +1291,15 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: c0e5455e1b7ff1cd4ff87c40ede1d071
+=======
+<<<<<<< Updated upstream
+      Hash: 3119f52fa4d4df79595510b7b87f00e2
+=======
+      Hash: eebeb670cf2805fab349bfe15d1220d2
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlatformerCollision
@@ -958,19 +1329,29 @@ ScriptsOnlyBuild:
     className: Control
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BallCollide
   - hash:
       serializedVersion: 2
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Vinnie
       Hash: 90864f8b81b27d1efc4b19eb036d2229
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: moveWhiteCell
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: 0a9161f587ac4ed26674f76c92d08ac4
+=======
+>>>>>>> Stashed changes
+      Hash: ef8153cdf8a978941d0b35437e2f60c7
+>>>>>>> Vinnie
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlatformerMove2D
@@ -1030,6 +1411,7 @@ ScriptsOnlyBuild:
     className: PlayerView
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: cfdd0010efd7b54c2b7512656dbc9119
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
@@ -1049,6 +1431,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 901fce3a0690f1311833eed267f6c99e
+=======
+<<<<<<< Updated upstream
+      Hash: 906e2cc64e1abf40f21488564aed6b57
+=======
+      Hash: 901fce3a0690f1311833eed267f6c99e
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TimerPong
@@ -1144,6 +1533,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: 9b2d72155209a515197b0788f9f11a91
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
@@ -1156,12 +1546,20 @@ ScriptsOnlyBuild:
     className: MainMenuManager
   - hash:
       serializedVersion: 2
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Vinnie
       Hash: 301f4da7cc3b301c161d089f9d22efed
     assemblyName: Unity.ProBuilder.dll
     namespaceName: UnityEngine.ProBuilder
     className: Entity
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -1420,12 +1818,22 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: 5898610d839a15db38cd8d288442cf6c
+=======
+<<<<<<< Updated upstream
+=======
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+>>>>>>> Vinnie
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: wobble
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1552,6 +1960,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: 762a30c8d779b11af16ed9ce1f2d32fa
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
@@ -1565,6 +1974,13 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 23b9104498617303fa6ae43532ba6901
+=======
+<<<<<<< Updated upstream
+      Hash: 1855a7a20f8b33ac8397e427c17c887d
+=======
+      Hash: edd1d47304c3bfd84b88a3c3de24d7af
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerCollisionSnake
@@ -1576,7 +1992,15 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Snake Explained.unity
   - Assets/Scenes/Snake.unity
   - Assets/Scenes/Platformer.unity
+<<<<<<< HEAD
   - Assets/Scenes/Music Explained.unity
   - Assets/Scenes/Music.unity
   - Assets/Scenes/Music version 2.unity
   playerPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IBG/IGB200/Builds/v06_t02/IGB200.exe
+=======
+<<<<<<< Updated upstream
+  playerPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Builds/v03_t02/IGB200.exe
+=======
+  playerPath: C:/Users/timot/OneDrive/Desktop/Uni stuff/2022/Sem2/200/IBG/IGB200/Builds/v04_t02/IGB200.exe
+>>>>>>> Stashed changes
+>>>>>>> Vinnie

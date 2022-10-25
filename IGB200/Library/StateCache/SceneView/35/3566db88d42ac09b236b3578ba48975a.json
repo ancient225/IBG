@@ -1,5 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-20.590417861938478,"y":58.30051040649414,"z":52.69898223876953},"rotation":{"x":0.0756218358874321,"y":0.2410612255334854,"z":-0.01883530430495739,"w":0.9673989415168762},"size":28.251758575439454,"orthographic":false}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":859.1052856445313,"y":578.4863891601563,"z":13.11346435546875},"rotation":{"x":0.07922813296318054,"y":-0.07050766795873642,"z":0.0056259166449308399,"w":0.9943662285804749},"size":508.808349609375,"orthographic":false}
 >>>>>>> 618bf94466fc07663e091d66c746b418e6c23550
+=======
+<<<<<<< Updated upstream
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":565.773681640625,"y":224.27183532714845,"z":17.071533203125},"rotation":{"x":0.09294211864471436,"y":-0.2663426697254181,"z":0.02581385336816311,"w":0.9590479731559753},"size":1122.8006591796875,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":1104.4720458984375,"y":694.8297119140625,"z":204.4281005859375},"rotation":{"x":-0.11584852635860443,"y":0.09877044707536698,"z":0.011586319655179978,"w":0.9882844090461731},"size":815.8873291015625,"orthographic":false}
+>>>>>>> Stashed changes
+>>>>>>> Vinnie

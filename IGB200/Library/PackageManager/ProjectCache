@@ -6,7 +6,13 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       ticks: 638019948625036213
+=======
+<<<<<<< Updated upstream
+      ticks: 638012533904206487
+    m_Hash: 1234442778
+>>>>>>> Vinnie
 =======
       ticks: 638022055924402556
 >>>>>>> c7847a1a39319a401b01682b0c76b9bf4d898295
@@ -18,7 +24,13 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       ticks: 638019948625046184
+=======
+<<<<<<< Updated upstream
+      ticks: 638012533904206487
+    m_Hash: 3932301164
+>>>>>>> Vinnie
 =======
       ticks: 638022055924412538
 >>>>>>> c7847a1a39319a401b01682b0c76b9bf4d898295
@@ -545,7 +557,15 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.5
       source: 1
+<<<<<<< HEAD
       resolvedPath: C:\Users\Vincent\OneDrive\Documents\GitHub\IBG\IBG\IGB200\Library\PackageCache\com.unity.ide.vscode@1.2.5
+=======
+<<<<<<< Updated upstream
+      resolvedPath: C:\Users\Vincent\OneDrive\Documents\GitHub\IBG\IBG\IGB200\Library\PackageCache\com.unity.ide.vscode@1.2.4
+=======
+      resolvedPath: C:\Users\Vincent\OneDrive\Documents\igb200_Tim\IBG\IGB200\Library\PackageCache\com.unity.ide.vscode@1.2.5
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -879,7 +899,15 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.31
       source: 1
+<<<<<<< HEAD
       resolvedPath: C:\Users\Vincent\OneDrive\Documents\GitHub\IBG\IBG\IGB200\Library\PackageCache\com.unity.test-framework@1.1.31
+=======
+<<<<<<< Updated upstream
+      resolvedPath: C:\Users\Vincent\OneDrive\Documents\GitHub\IBG\IBG\IGB200\Library\PackageCache\com.unity.test-framework@1.1.29
+=======
+      resolvedPath: C:\Users\Vincent\OneDrive\Documents\igb200_Tim\IBG\IGB200\Library\PackageCache\com.unity.test-framework@1.1.31
+>>>>>>> Stashed changes
+>>>>>>> Vinnie
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
